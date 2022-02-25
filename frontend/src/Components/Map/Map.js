@@ -15,15 +15,23 @@ const Map = () => {
     {"latlng": [49, 29], "articles": 1000},
   ];
   const Circles = [];
-  function DrawCircle() {
+  //function DrawCircle() {
     
     //circleData.forEach(point => {
     //  
     //});
-    return <Circle center={circleData[0].latlng} pathOptions={fillRedOptions} radius={circleData[0].articles * 10}></Circle>
+    //return <Circle center={circleData[0].latlng} pathOptions={fillRedOptions} radius={circleData[0].articles * 10}></Circle>
+  //}
+  //ReactDOM.render(<DrawCircle />, document.getElementById('circles'))
+  function circleList() {
+    return (
+      <ol>
+        {circleData.map(point => (
+          <li key={point.latlng}>{point.latlng}</li>
+        ))}
+      </ol>
+    );
   }
-  ReactDOM.render(<DrawCircle />, document.getElementById('circles'))
-
   const [coords, setCoords] = useState({});
   
   const fillRedOptions = { fillColor: 'red' , color: 'red'}
@@ -53,6 +61,9 @@ const Map = () => {
         <Circle center={position} pathOptions={fillRedOptions} radius={2000}>
         <Popup>Popup in Circle</Popup>
         </Circle>
+
+        {circleList()}
+
         <div id="circles"></div>
 
       </MapContainer>
