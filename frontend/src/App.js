@@ -1,8 +1,11 @@
+import Feed from "./Components/Feed/Feed";
+import NewsList from "./Components/NewsList";
+
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <NewsList/>
+    </div>
   )
 }
 
