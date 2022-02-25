@@ -1,12 +1,47 @@
+import { Component } from "react";
+import Feed from "./Components/Feed";
+import NewsList from "./Components/NewsList";
+import Header from "./Components/Header";
+import Map from "./Components/Map/Map";
 
-import './App.css';
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: "React",
+      showNewsList: true,
+    };
+    this.toggleComponent = this.toggleComponent.bind(this);
+  }
 
-function App() {
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+  toggleComponent(name) {
+    console.log(name);
+    switch (name) {
+      case "showNewsList":
+        console.log("Toggling")
+        this.setState({ showNewsList: !this.state.showNewsList });
+        break;
+      default:
+        console.log("defualt");
+    }
+  }
+
+  render() {
+    const {showNewsList} = this.state;
+
+    return (
+      <div>
+        <Header/>
+        <div class="grid grid-cols-4 gap-0 pt-8">
+          <div class="col-span-3"><Map/></div>
+          <Feed/>
+        </div>
+        {/* <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
+        {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>} */}
+      </div>
+      
+    );
+  }
 }
 
 export default App;
