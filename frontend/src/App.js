@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <button onClick={() => this.toggleComponent("showNewsList")}>toggle showNewsList(replace with map coutnry thing)</button>
+        <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
         {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>}
       </div>
       
