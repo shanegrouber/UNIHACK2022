@@ -1,6 +1,6 @@
 import React from 'react'
 
-const NewsList = () => {
+const Header = () => {
     return (
         <div class="grid grid-cols-2 pt-1 pl-1 pb-1 shadow-xl">
 
@@ -19,4 +19,4 @@ const NewsList = () => {
       )
     }
 
-export default NewsList
+export default Header
