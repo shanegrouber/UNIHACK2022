@@ -33,7 +33,9 @@ class App extends Component {
       <div>
         <Header/>
         <div class="grid grid-cols-4 gap-0 pt-8">
-          <div class="col-span-3"><Map/></div>
+          <div class="col-span-3">
+            <Map/>
+          </div>
           <Feed/>
         </div>
         {/* <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
