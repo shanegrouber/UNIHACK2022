@@ -1,6 +1,7 @@
 import { Component } from "react";
 import Feed from "./Components/Feed/Feed";
 import NewsList from "./Components/NewsList";
+import Header from "./Components/Header";
 
 
 class App extends Component {
@@ -30,6 +31,7 @@ class App extends Component {
 
     return (
       <div>
+        <Header/>
         <button onClick={() => this.toggleComponent("showNewsList")}>toggle showNewsList(replace with map coutnry thing)</button>
         {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>}
       </div>
