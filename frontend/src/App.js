@@ -1,5 +1,4 @@
 import { Component } from "react";
-import Feed from "./Components/Feed/Feed";
 import NewsList from "./Components/NewsList";
 import Map from "./Components/Map/Map";
 
