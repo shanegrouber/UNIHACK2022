@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Feed from "./Components/Feed/Feed";
 import NewsList from "./Components/NewsList";
-
+import Map from "./Components/Map/Map";
 
 class App extends Component {
   constructor() {
@@ -32,6 +32,7 @@ class App extends Component {
       <div>
         <button onClick={() => this.toggleComponent("showNewsList")}>toggle showNewsList(replace with map coutnry thing)</button>
         {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>}
+        <Map/>
       </div>
       
     );
