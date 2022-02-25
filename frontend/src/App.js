@@ -32,10 +32,12 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
-        {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>}
-        <Map/>
-        <Feed/>
+        <div class="grid grid-cols-4 gap-0 pt-8">
+          <div class="col-span-3"><Map/></div>
+          <Feed/>
+        </div>
+        {/* <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
+        {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>} */}
       </div>
       
     );
