@@ -10,12 +10,10 @@ module.exports = {
                 res.json(newsArticles);
             });
     },
-    addArticles: function(req, res) {
-        let newNewsArticle = req.body;
-        newNewsArticle._id = new mongoose.Types.ObjectId();
-        NewsArticle.create(newNewsArticle, function(err, newsArticle) {
-            if (err) return res.status(400).json(err);
-            res.json(newsArticle);
+    addArticle: function(body) {
+        body._id = new mongoose.Types.ObjectId();
+        NewsArticle.create(body, function(err, newsArticle) {
+            if (err) console.log(err);
         });
     }
 }

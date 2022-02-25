@@ -8,14 +8,14 @@ const newsArticleSchema = new mongoose.Schema({
     },
     source: {
         type: String,
-        required: true
+        required: false
     },
     author: {
         type: String
     },
     description: {
         type: String,
-        required: true
+        required: false
     },
     publishedAt: {
         type: Date,
@@ -23,7 +23,7 @@ const newsArticleSchema = new mongoose.Schema({
     },
     content: {
         type: String,
-        required: true
+        required: false
     },
     url: {
         type: String,
@@ -31,7 +31,7 @@ const newsArticleSchema = new mongoose.Schema({
     },
     thumbnail: {
         type: String,
-        required: true
+        required: false
     }
 
 })
