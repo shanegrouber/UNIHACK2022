@@ -10,7 +10,6 @@ const NewsItem = () => {
             </div>
         </div>
       </div>
-    
   )
 }
 
