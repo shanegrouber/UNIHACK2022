@@ -2,7 +2,7 @@ import { Component } from "react";
 import Feed from "./Components/Feed/Feed";
 import NewsList from "./Components/NewsList";
 import Header from "./Components/Header";
-
+import Map from "./Components/Map/Map";
 
 class App extends Component {
   constructor() {
@@ -34,6 +34,8 @@ class App extends Component {
         <Header/>
         <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
         {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>}
+        <Map/>
+        <Feed/>
       </div>
       
     );
