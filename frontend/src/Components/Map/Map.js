@@ -34,6 +34,7 @@ const Map = ({childToParent}) => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         />
 
+        {/* IF COUNT IS FIVE OR LESS, DO NOT DRAW CIRCLE - to prevent outliers - in backend probably */}
         {Object.keys(circles).map((key, i ) => (
           <Circle 
             key={i} 
