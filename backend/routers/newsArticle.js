@@ -35,10 +35,10 @@ module.exports = {
                 res.json()
             })
     },
-    deleteOldArticles: function() { //deleteMany
+    deleteOldArticles: function() {
         console.log("Deleting old articles");
         let oneWeekAgo = moment().subtract(7, 'days');
-        NewsArticle.find({ publishedAt: { $lt: oneWeekAgo } }, function(err, articles) {
+        NewsArticle.deleteMany({ publishedAt: { $lt: oneWeekAgo } }, function(err, articles) {
             console.log(articles.length);
             if (err) return err;
         })
