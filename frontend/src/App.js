@@ -4,6 +4,7 @@ import NewsList from "./Components/NewsList";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Map from "./Components/Map/Map";
+import axios from 'axios';
 
 const App = () => {
 
@@ -12,6 +13,20 @@ const App = () => {
   const childToParent = (childdata) => {
     setData(childdata);
   }
+
+  var token = "QGw53N7xj59eH93o";
+
+  const api = "https://api.psma.com.au/v2/addresses/reverseGeocoder/" + coords;
+  axios.get(api, { headers: {"Authorization" : `Bearer ${token}`} })
+          .then(res => {
+              console.log(res.data);
+          this.setState({
+              items: res.data,  /*set response data in items array*/
+              isLoaded : true,
+              redirectToReferrer: false
+          })});
+          
+
 
 
   return (
@@ -23,12 +38,13 @@ const App = () => {
           {coords}
         </div>
         <Feed/>
+        {fetch}
         
       </div>
       {/* <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
       {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>} */}
 
-    <div class="absolute inset-x-0 bottom-0"><Footer/></div>
+      <div class="absolute inset-x-0 bottom-0"><Footer/></div>
     </div>
     
   );

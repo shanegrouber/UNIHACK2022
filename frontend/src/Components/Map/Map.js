@@ -16,9 +16,8 @@ const Map = ({childToParent}) => {
       
     });
   }, [map]);
-  
   const { lat, lng } = coords;
-  const textCoords = "lng: " + coords.lng.toString() + " lat: " + coords.lat.toString();
+  const textCoords = "longitude=" + coords.lng.toString() + "&latitude=-33.9097" + coords.lat.toString();
         
   return (
     <div>
