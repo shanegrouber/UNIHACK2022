@@ -73,7 +73,7 @@ def getcount():
 
     obj = json.dumps(out, indent = 4)
 
-    with open("sampledata.json", "w") as outfile:
+    with open("locationdata.json", "w") as outfile:
         outfile.write(obj)
 
 
