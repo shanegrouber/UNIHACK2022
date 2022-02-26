@@ -57,12 +57,11 @@ const Map = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         />
         
-        
-        <Circle center={position} pathOptions={fillRedOptions} radius={2000}>
-        <Popup>Popup in Circle</Popup>
-        </Circle>
-
-        {circleList()}
+        <>{circleData.map(({latlng,articles}) => (
+          <Circle key={latlng} center={latlng} pathOptions={fillRedOptions} radius={articles * 10}>
+            <Popup>Popup in Circle</Popup>
+          </Circle>
+        ))} </>
 
         <div id="circles"></div>
 
