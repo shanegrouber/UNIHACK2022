@@ -16,7 +16,7 @@ const Map = ({childToParent}) => {
   ];
   const Circles = [];
 
-  const [coords, setCoords] = useState({});
+  const [coords, setCoords] = useState({lng: 0, lat: 0});
   
   const fillRedOptions = { fillColor: 'red' , color: 'red'}
 
@@ -28,7 +28,6 @@ const Map = ({childToParent}) => {
       
     });
   }, [map]);
-  const { lat, lng } = coords;
   const textCoords = "longitude=" + coords.lng.toString() + "&latitude=-33.9097" + coords.lat.toString();
         
   return (
