@@ -1,11 +1,13 @@
 from getheadlines import fetchnews
 from parser import getcount
+from db import updatedb
 from multiprocessing import Process
 import datetime
 import time
 def main():
     fetchnews()
     getcount()
+    updatedb()
     time.sleep(3600)
 
 
