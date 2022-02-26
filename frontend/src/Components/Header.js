@@ -1,10 +1,11 @@
 import React from 'react'
+import './Header.css';
 
 const Header = () => {
     return (
-        <div class="grid grid-cols-2 pt-1 pl-1 pb-1 shadow-xl">
+        <div class="grid grid-cols-2 pt-1 pl-3 pb-1 shadow-xl">
 
-            <img class="h-10" src="https://i.kym-cdn.com/entries/icons/mobile/000/017/618/pepefroggie.jpg"></img>
+            <h1><span class="logo">H</span><span class="fire">&#128293;</span><span class="logo">T T</span><span class="globe">&#127760;</span><span class="logo">PIC</span></h1>
             <div class="flex justify-end">
                 <ul class="flex pt-2">
                     <li class="mr-6">
