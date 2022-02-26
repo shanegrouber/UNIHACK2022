@@ -18,7 +18,7 @@ const Footer = () => {
                         <h2 className="text-black transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">Andrew</h2>
                     </li>
                     <li className="mr-6">
-                        <h2 className="text-black transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">Jeremy</h2>
+                        <h2 className="text-black transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300">Jeremy West</h2>
                     </li>
                     <li className="mr-6">
                         <h2 className="text-black transition ease-in-out  hover:-translate-y-1 hover:scale-110  duration-300 ">Shane</h2>
