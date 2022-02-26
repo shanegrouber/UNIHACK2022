@@ -1,11 +1,14 @@
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config();
+}
 const express = require('express');
 const mongoose = require('mongoose');
 const NewsAPI = require('newsapi');
 const path = require('path');
-
-const newsapi = new NewsAPI('9d8ac27362174fb1ae77114dc8ed8f97');
+const newsapi = new NewsAPI(process.env.NEWSAPI_KEY);
 const newsArticles = require('./routers/newsArticle');
 const app = express();
+
 
 app.listen(process.env.PORT || 3000, function() {
     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
@@ -13,9 +16,8 @@ app.listen(process.env.PORT || 3000, function() {
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static(path.join(__dirname, '../frontend/build')))
-
-mongoose.connect('mongodb://localhost:27017/unihack', function(err) {
+app.use(express.static(path.join(__dirname, '../frontend/build')));
+mongoose.connect(`mongodb+srv://${process.env.MONGO_DOMAIN}@cluster0.vlfea.mongodb.net/unihack?retryWrites=true&w=majority`, function(err) {
     if (err) {
         return console.log('Mongoose - Connection Error:', err);
     }
@@ -23,7 +25,6 @@ mongoose.connect('mongodb://localhost:27017/unihack', function(err) {
 });
 
 app.get('/data', newsArticles.getAll);
-
 
 
 function getNewArticles(oldDB, newDB) {
@@ -48,7 +49,7 @@ function fetchArticles() {
 
         let fetchedArticles = response.articles;
         let difference = getNewArticles(database, fetchedArticles);
-        console.log(`Found ${difference.length} new articles`);
+        if (difference.length) console.log(`Found ${difference.length} new articles`);
         for (let i = 0; i < difference.length; i++) {
             let article = difference[i];
             let newArticle = {
@@ -70,6 +71,6 @@ function fetchArticles() {
     });
 }
 database = [];
-// setInterval(function() {
-//     fetchArticles();
-// }, 10000);
+setInterval(function() {
+    fetchArticles();
+}, 1000 * 60 * 60);
