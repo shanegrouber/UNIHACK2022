@@ -71,6 +71,6 @@ function fetchArticles() {
     });
 }
 database = [];
-setInterval(function() {
-    fetchArticles();
-}, 1000 * 60 * 60);
+// setInterval(function() {
+//     fetchArticles();
+// }, 1000 * 60 * 60);
