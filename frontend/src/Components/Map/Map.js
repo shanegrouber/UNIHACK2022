@@ -39,13 +39,13 @@ const Map = ({childToParent}) => {
             key={i} 
             center={[circles[key].lat, circles[key].long]} 
             pathOptions={fillRedOptions} 
-            radius={circles[key].count * 100000} 
+            radius={circles[key].count * 10000} 
             eventHandlers={{click: (e) => {
               console.log(circles[key].lat)
               getCircleLocation(circles[key].city)
             },
           }}>
-            <Popup>Popup in Circle</Popup>
+            <Popup><NewsList></NewsList></Popup>
           </Circle>
         ))}
       {childToParent(location)}
