@@ -13,7 +13,7 @@ const Feed = () => {
       
       <div class="divide-y-8 pb-2  "></div>
       
-      <div class="grid grid-cols-1 py-4 gap-4 overflow-y-auto h-5/6 scroll-smooth ">
+      <div class="grid grid-cols-1 py-4 gap-4 overflow-y-auto h-full scroll-smooth ">
         <div class=" rounded-md border-black border-0 w-5/6 h-24 justify-self-center shadow-md bg-slate-300 shadow-slate-500/50 "></div>
         <div class=" rounded-md border-black border-0 w-5/6 h-24 justify-self-center shadow-md bg-slate-300 shadow-slate-500/50 "></div>
         <div class=" rounded-md border-black border-0 w-5/6 h-24 justify-self-center shadow-md bg-slate-300 shadow-slate-500/50 "></div>

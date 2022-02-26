@@ -33,9 +33,9 @@ const App = () => {
   }
     
   return (
-    <div>
+    <div class='h-screen'>
       <Header/>
-      <div class="grid grid-cols-4 gap-0 pt-8">
+      <div class="grid grid-cols-4 h-full gap-0 pt-8">
         <div class="col-span-3" onClick={() => {getAllLocations()}}>
           <Map childToParent={childToParent}/>
           {coords}
