@@ -19,7 +19,7 @@ const Map = ({childToParent}) => {
     if (!map) return;
     map.addEventListener("click", (e) => {
       setCoords({ lat: e.latlng.lat, lng: e.latlng.lng });
-    });
+    }); 
   }, [map]);
 
   const getCircleLocation = (data) => {
