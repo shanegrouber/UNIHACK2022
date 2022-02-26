@@ -1,44 +1,53 @@
-import { Component, useState} from "react";
+import { Component, useEffect, useState} from "react";
 import Feed from "./Components/Feed";
 import NewsList from "./Components/NewsList";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Map from "./Components/Map/Map";
 import axios from 'axios';
+import { reverseGeocode } from '@esri/arcgis-rest-geocoding';
+
+
+
 
 const App = () => {
 
   const [coords, setData] = useState(null);
+  const [locations, getLocations] = useState('');
+  const token = "AIzaSyCiHPm2a1g14WY6fvxZ0kPhIqJJfsoBYgE";
+
+  useEffect(() => {
+    getAllLocations();
+  }, []);
+
 
   const childToParent = (childdata) => {
     setData(childdata);
   }
+  
 
-  var token = "QGw53N7xj59eH93o";
-
-  const api = "https://api.psma.com.au/v2/addresses/reverseGeocoder/" + coords;
-  axios.get(api, { headers: {"Authorization" : `Bearer ${token}`} })
-          .then(res => {
-              console.log(res.data);
-          this.setState({
-              items: res.data,  /*set response data in items array*/
-              isLoaded : true,
-              redirectToReferrer: false
-          })});
-          
-
-
+  const getAllLocations = () => {
+    axios.get("https://maps.googleapis.com/maps/api/geocode/json?latlng="+coords+"&key="+token)
+    .then((response) => {
+        console.log(response)
+        const allLocations = response.data;
+        getLocations(allLocations);
+       }).catch(error => {
+        console.log(error.response)
+    });
+  }
+    
 
   return (
     <div>
       <Header/>
       <div class="grid grid-cols-4 gap-0 pt-8">
-        <div class="col-span-3">
-          <Map childToParent={childToParent}/>
-          {coords}
+        <div class="col-span-3" onClick={() => {getAllLocations()}}>
+          <Map childToParent={childToParent} />
         </div>
         <Feed/>
-        {fetch}
+        <div>data: {JSON.stringify(locations["plus_code"]["compound_code"])}</div> 
+        
         
       </div>
       {/* <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>

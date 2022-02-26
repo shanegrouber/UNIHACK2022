@@ -28,7 +28,7 @@ const Map = ({childToParent}) => {
       
     });
   }, [map]);
-  const textCoords = "longitude=" + coords.lng.toString() + "&latitude=-33.9097" + coords.lat.toString();
+  const textCoords = coords.lat.toFixed(6).toString() +','+coords.lng.toFixed(6).toString() ;
         
   return (
     <div>
