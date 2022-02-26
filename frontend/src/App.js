@@ -5,7 +5,6 @@ import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Map from "./Components/Map/Map";
 import axios from 'axios';
-import { reverseGeocode } from '@esri/arcgis-rest-geocoding';
 
 
 
