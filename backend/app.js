@@ -39,6 +39,12 @@ function getNewArticles(oldDB, newDB) {
     return difference;
 }
 
+function deleteOldArticles() {
+    setInterval(function() {
+        newsArticles.deleteOldArticles();
+    }, 86400 * 1000)
+}
+
 function fetchArticles() {
     d = new Date();
     newsapi.v2.everything({
@@ -78,3 +84,5 @@ database = [];
 // setInterval(function() {
 //     fetchArticles();
 // }, 1000 * 60 * 60);
+
+// deleteOldArticles();

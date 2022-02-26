@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const moment = require("moment");
 var NewsArticle = require('../models/newsArticle');
 
 module.exports = {
@@ -33,5 +34,13 @@ module.exports = {
                 })
                 res.json()
             })
+    },
+    deleteOldArticles: function() { //deleteMany
+        console.log("Deleting old articles");
+        let oneWeekAgo = moment().subtract(7, 'days');
+        NewsArticle.find({ publishedAt: { $lt: oneWeekAgo } }, function(err, articles) {
+            console.log(articles.length);
+            if (err) return err;
+        })
     }
 }

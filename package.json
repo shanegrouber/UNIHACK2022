@@ -20,6 +20,7 @@
     "dependencies": {
         "dotenv": "^16.0.0",
         "express": "^4.17.3",
+        "moment": "^2.29.1",
         "mongoose": "^6.2.3",
         "newsapi": "^2.4.1"
     }
