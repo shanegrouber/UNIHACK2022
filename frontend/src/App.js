@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Feed from "./Components/Feed";
-import NewsList from "./Components/Map/NewsList";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Map from "./Components/Map/Map";
@@ -36,15 +35,19 @@ const App = () => {
     <div class='h-screen'>
       <Header/>
       <div class="grid grid-cols-4 h-full gap-0 pt-8">
-        <div class="col-span-3">
+        <div class="col-span-3 h-full">
           <Map childToParent={childToParent}/>
           {coords}
         </div>
         
         <div class= "grid grid-cols-1">
         <Feed/>
-        <PhoneSMS/></div>
-        <div>data: {JSON.stringify(locations ? locations["plus_code"] : locations["plus_code"])}</div> 
+        
+        {/* <PhoneSMS/> */}
+        
+        </div>
+
+        {/* <div>data: {JSON.stringify(locations ? locations["plus_code"] : locations["plus_code"])}</div>  */}
         
         
       </div>
