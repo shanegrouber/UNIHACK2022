@@ -46,7 +46,7 @@ const Map = () => {
           </Circle>
         ))} </> */}
 
-        <div id="circles"></div>
+        <div id="circles"></div> 
 
       </MapContainer>
       {lat && (
