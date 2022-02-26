@@ -13,23 +13,22 @@ const App = () => {
     setData(childdata);
   }
 
-    return (
-      <div id="body">
-        <Header/>
 
-        <div class="grid grid-cols-4 gap-0 pt-8">
-          <div class="col-span-3">
-            <Map/>
-          </div>
-          <Feed/>
+  return (
+    <div>
+      <Header/>
+      <div class="grid grid-cols-4 gap-0 pt-8">
+        <div class="col-span-3">
+          <Map childToParent={childToParent}/>
+          {coords}
         </div>
-        {/* <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
-        {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>} */}
-
-        <div class="absolute inset-x-0 bottom-0"><Footer/></div>
+        <Feed/>
+        
       </div>
       {/* <button onClick={() => this.toggleComponent("showNewsList")}>||News list toggle||</button>
       {showNewsList && <NewsList onClick={() => this.toggleComponent("showNewsList")}/>} */}
+
+    <div class="absolute inset-x-0 bottom-0"><Footer/></div>
     </div>
     
   );
