@@ -18,6 +18,7 @@
     },
     "homepage": "https://github.com/shanegrouber/UNIHACK2022#readme",
     "dependencies": {
+        "dotenv": "^16.0.0",
         "express": "^4.17.3",
         "mongoose": "^6.2.3",
         "newsapi": "^2.4.1"
