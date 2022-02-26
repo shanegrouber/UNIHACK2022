@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import simplejson
 
-def getcount():
+def parse():
     in_file = open('top-headlines.json')
 
     data = json.load(in_file)
@@ -54,6 +54,8 @@ def getcount():
 
     df=df[df!=0].dropna()
 
+    df = df.sort_values(by=['count'],ascending=False)
+
     df.reset_index(drop=False, inplace=True)
 
     df = df.drop('Unnamed: 0', 1)
@@ -76,5 +78,3 @@ def getcount():
     
     in_file.close()
     outfile.close()
-
-getcount()

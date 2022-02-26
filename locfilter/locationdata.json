@@ -1,184 +1,5 @@
 {
     "0": {
-        "city": "Manila",
-        "country": "Philippines",
-        "lat": 14.6,
-        "long": 120.9833,
-        "count": 2.0,
-        "articles": [
-            "PH among 'biggest losers' in Ukraine war - The Manila Times",
-            "Kakampinks on a high: #IloiloIsPink still trends nationwide; 40,000 attend Robredo\u2019s Iloilo rally - Manila Bulletin"
-        ],
-        "urls": [
-            "https://www.manilatimes.net/2022/02/26/news/national/ph-among-biggest-losers-in-ukraine-war/1834357",
-            "https://mb.com.ph/2022/02/26/kakampinks-on-a-high-iloiloispink-still-trends-nationwide-40000-attend-robredos-iloilo-rally/"
-        ]
-    },
-    "1": {
-        "city": "Beijing",
-        "country": "China",
-        "lat": 39.905,
-        "long": 116.3914,
-        "count": 58.0,
-        "articles": [
-            "Winter Olympics: Will the Beijing Games be 'green and clean'?",
-            "Women are the stars (and the victims) of the Beijing Olympics",
-            "Olympics Updates: First Medals Set to Be Awarded at Beijing Games",
-            "Ukraine, Donald Trump, Beijing Olympics: Your Thursday Evening Briefing",
-            "Welcome to Beijing 2022, the Logistics Olympics",
-            "Grindr restricts location features at the Beijing Olympic Village",
-            "All the Flips, Spins, Joy and Heartbreak From Beijing So Far",
-            "How Beijing Created Snow for the Winter Olympics",
-            "In pictures: The best photos of the Beijing Winter Olympics",
-            "The Environmentally Unfriendly Secret of the Beijing Olympics",
-            "NATO, Winter Storm, Beijing Olympics: Your Wednesday Evening Briefing",
-            "Russia, Ahmaud Arbery, Beijing Olympics: Your Monday Evening Briefing",
-            "Winter Olympics: Global sponsors quiet ahead of Beijing Games",
-            "Photos: 25 athletes to watch in the Beijing Winter Olympics",
-            "Day 5 of the 2022 Beijing Winter Olympics",
-            "Day 6 of the 2022 Beijing Winter Olympics",
-            "India launches last-minute diplomatic boycott of Beijing Olympics over Chinese solider",
-            "Winter Olympics: Kamila Valieva allowed to compete at Beijing after Cas hearing",
-            "ON Biathlon at the Beijing Olympics - Reuters",
-            "ON Bobsleigh at the Beijing Olympics - Reuters",
-            "Factbox: Beijing Winter Games by numbers - Reuters",
-            "ON Snowboarding at the Beijing Olympics - Reuters"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/60067690",
-            "https://www.npr.org/2022/02/19/1081941277/eileen-gu-mikaela-shiffrin-kamila-valieva-women-stars-of-beijing-olympics",
-            "https://www.nytimes.com/live/2022/02/04/sports/olympics-winter",
-            "https://www.nytimes.com/2022/02/17/briefing/ukraine-donald-trump-beijing-olympics.html",
-            "https://www.nytimes.com/2022/01/31/sports/olympics/beijing-covid-tests-travel.html",
-            "https://www.engadget.com/grindr-winter-olympics-2022-privacy-161854452.html",
-            "https://www.nytimes.com/live/2022/02/11/sports/photos-winter-olympics",
-            "https://www.nytimes.com/2022/02/05/sports/olympics/snow-winter-olympics.html",
-            "https://www.cnn.com/2022/02/04/sport/gallery/beijing-winter-olympics-best-photos/index.html",
-            "https://www.nytimes.com/2022/02/09/climate/china-water-climate-olympics.html",
-            "https://www.nytimes.com/2022/02/02/briefing/nato-winter-storm-beijing-olympics.html",
-            "https://www.nytimes.com/2022/02/21/briefing/russia-ahmaud-abery-winter-olympics.html",
-            "https://www.bbc.co.uk/news/business-60136347",
-            "https://www.cnn.com/2022/01/26/sport/gallery/winter-olympic-athletes-to-watch-beijing/index.html",
-            "https://www.cnn.com/world/live-news/beijing-winter-olympics-02-09-22-spt/index.html",
-            "https://www.cnn.com/world/live-news/beijing-winter-olympics-02-10-22-spt/index.html",
-            "https://www.cnn.com/2022/02/03/china/india-diplomatic-boycott-beijing-olympics-intl-hnk/index.html",
-            "https://www.bbc.co.uk/sport/winter-olympics/60371282",
-            "https://www.reuters.com/lifestyle/sports/biathlon-beijing-olympics-2022-01-26/",
-            "https://www.reuters.com/lifestyle/sports/bobsleigh-beijing-olympics-2022-01-27/",
-            "https://www.reuters.com/lifestyle/sports/beijing-winter-games-by-numbers-2022-02-01/",
-            "https://www.reuters.com/lifestyle/sports/snowboarding-beijing-olympics-2022-01-26/"
-        ]
-    },
-    "2": {
-        "city": "New York",
-        "country": "United States",
-        "lat": 40.6943,
-        "long": -73.9249,
-        "count": 20.0,
-        "articles": [
-            "Arizona Starbucks becomes 1st outside New York to unionize",
-            "Retired Florida cop who killed man in movie theater for texting acquitted of murder - New York Post ",
-            "Jussie Smollett files motion to throw out his guilty verdict for staging hate crime - New York Post ",
-            "After a year of challenges, the latest Covid data offer New York doses of optimism.",
-            "Seeking to strengthen pay equity laws in New York - Reuters",
-            "Judge rules Donald Trump must testify in New York investigation",
-            "Trump and his children may be deposed by New York attorney general, judge rules"
-        ],
-        "urls": [
-            "https://abcnews.go.com/Business/wireStory/arizona-starbucks-1st-york-unionize-83119057",
-            "https://nypost.com/2022/02/26/curtis-reeves-retired-florida-cop-acquitted-of-murdering-chad-oulson-in-theater/",
-            "https://nypost.com/2022/02/26/jussie-smolletts-lawyers-ask-judge-to-throw-out-conviction-due-to-errors-in-trial/",
-            "https://www.nytimes.com/live/2022/02/20/world/covid-19-tests-cases-vaccine",
-            "https://www.reuters.com/legal/legalindustry/seeking-strengthen-pay-equity-laws-new-york-2022-01-27/",
-            "https://www.bbc.co.uk/news/world-us-canada-60425457",
-            "https://www.cnn.com/2022/02/17/politics/trump-subpoena-james-new-york-lawsuit/index.html"
-        ]
-    },
-    "3": {
-        "city": "Moscow",
-        "country": "Russia",
-        "lat": 55.7558,
-        "long": 37.6178,
-        "count": 22.0,
-        "articles": [
-            "Russia Ukraine: US sends Moscow formal response over crisis",
-            "Scholz flies to Moscow in bid to avert war - Reuters"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/world-europe-60145159",
-            "https://www.reuters.com/world/europe/scholz-flies-moscow-bid-avert-war-2022-02-15/"
-        ]
-    },
-    "4": {
-        "city": "Hong Kong",
-        "country": "Hong Kong",
-        "lat": 22.305,
-        "long": 114.185,
-        "count": 2.0,
-        "articles": [
-            "As 'stealth omicron' advances, scientists are learning more - Hong Kong Standard",
-            "Lower sperm count and testosterone levels due to Covid-19? Here\u2019s what Hong Kong researchers claim - News Azi"
-        ],
-        "urls": [
-            "https://www.thestandard.com.hk/breaking-news/section/6/187543/As-%E2%80%98stealth-omicron%E2%80%99-advances,-scientists-are-learning-more%C2%A0",
-            "https://newsazi.com/lower-sperm-count-and-testosterone-levels-due-to-covid-19-heres-what-hong-kong-researchers-claim/"
-        ]
-    },
-    "5": {
-        "city": "Washington",
-        "country": "United States",
-        "lat": 38.9047,
-        "long": -77.0163,
-        "count": 9.0,
-        "articles": [
-            "Ukrainians Google 'how to make a molotov cocktail' after defense minister's call to arms - The Washington Post",
-            "Germany\u2019s \u2018Invisible\u2019 Chancellor Heads to Washington Amid Fierce Criticism"
-        ],
-        "urls": [
-            "https://www.washingtonpost.com/world/2022/02/25/ukraine-google-molotov-cocktails-resistance-russia/",
-            "https://www.nytimes.com/2022/02/06/world/europe/olaf-scholz-biden-ukraine-russia.html"
-        ]
-    },
-    "6": {
-        "city": "Sydney",
-        "country": "Australia",
-        "lat": -33.865,
-        "long": 151.2094,
-        "count": 2.0,
-        "articles": [
-            "Russia-Ukraine war LIVE updates: Kyiv under heavy missile attack; Australia and US impose sanctions; flood warnings worsen in Queensland and NSW - The Sydney Morning Herald"
-        ],
-        "urls": [
-            "https://www.smh.com.au/national/russia-ukraine-war-live-updates-kyiv-under-heavy-missile-attack-as-russian-troops-move-towards-ukraine-s-capital-refugees-flee-to-romania-20220225-p59zsr.html"
-        ]
-    },
-    "7": {
-        "city": "Kabul",
-        "country": "Afghanistan",
-        "lat": 34.5328,
-        "long": 69.1658,
-        "count": 2.0,
-        "articles": [
-            "Afghan students return to Kabul U, but with restrictions"
-        ],
-        "urls": [
-            "https://abcnews.go.com/International/wireStory/afghan-students-return-kabul-restrictions-83125435"
-        ]
-    },
-    "8": {
-        "city": "Berlin",
-        "country": "Germany",
-        "lat": 52.5167,
-        "long": 13.3833,
-        "count": 2.0,
-        "articles": [
-            "Women dominate Berlin film festival as Alcarr\u00e0s wins Golden Bear"
-        ],
-        "urls": [
-            "https://amp.theguardian.com/film/2022/feb/17/women-dominate-berlin-film-festival-as-alcarras-wins-golden-bear"
-        ]
-    },
-    "9": {
         "city": "Kyiv",
         "country": "Ukraine",
         "lat": 50.45,
@@ -229,1220 +50,7 @@
             "https://www.theglobeandmail.com/world/article-russian-troops-push-in-to-kyiv-as-war-wages-throughout-ukraine/"
         ]
     },
-    "10": {
-        "city": "Birmingham",
-        "country": "United Kingdom",
-        "lat": 52.48,
-        "long": -1.9025,
-        "count": 2.0,
-        "articles": [
-            "Peaky Blinders: Birmingham City revert to Small Heath Alliance"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-england-birmingham-60523752"
-        ]
-    },
-    "11": {
-        "city": "Salvador",
-        "country": "Brazil",
-        "lat": -12.9708,
-        "long": -38.5108,
-        "count": 2.0,
-        "articles": [
-            "El Salvador charges ex-president in 1989 Jesuit massacre"
-        ],
-        "urls": [
-            "https://abcnews.go.com/International/wireStory/el-salvador-charges-president-1989-jesuit-massacre-83120368"
-        ]
-    },
-    "12": {
-        "city": "Manchester",
-        "country": "United Kingdom",
-        "lat": 53.4794,
-        "long": -2.2453,
-        "count": 7.0,
-        "articles": [
-            "Ukraine conflict: Manchester City Oleksandr Zinchenko joins vigil in Manchester city centre",
-            "Ralf Rangnick hints out-of-form Manchester United man Rashford is facing the axe - TEAMtalk"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/football/60520646",
-            "https://www.teamtalk.com/manchester-united/marcus-rashford-given-warning-by-ralf-rangnick-over-form"
-        ]
-    },
-    "13": {
-        "city": "Brisbane",
-        "country": "Australia",
-        "lat": -27.4678,
-        "long": 153.0281,
-        "count": 1.0,
-        "articles": [
-            "Omid and his brothers just lost $400K to the swollen Oxley Creek - Brisbane Times"
-        ],
-        "urls": [
-            "https://www.brisbanetimes.com.au/national/queensland/omid-and-his-brothers-just-lost-400k-to-the-swollen-oxley-creek-20220226-p59zyi.html"
-        ]
-    },
-    "14": {
-        "city": "Dubai",
-        "country": "United Arab Emirates",
-        "lat": 25.2697,
-        "long": 55.3094,
-        "count": 3.0,
-        "articles": [
-            "Asteroid 'Taller Than Dubai Skyscraper, Wider than The Vatican' to Skim Past Earth - Sputnik International",
-            "Canada's Shapovalov upset in Dubai semis; Russia's Rublev makes anti-war plea - CBC.ca"
-        ],
-        "urls": [
-            "https://sputniknews.com/20220226/asteroid-taller-than-dubai-skyscraper-wider-than-the-vatican-to-skim-past-earth-1093387124.html",
-            "https://www.cbc.ca/sports/tennis/roundup-dubai-feb-25-1.6364757"
-        ]
-    },
-    "15": {
-        "city": "Las Vegas",
-        "country": "United States",
-        "lat": 36.2333,
-        "long": -115.2654,
-        "count": 3.0,
-        "articles": [
-            "Saul 'Canelo' Alvarez to face Dmitry Bivol in Las Vegas on 7 May",
-            "Traveling to Las Vegas during Covid-19: What you need to know before you go"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/boxing/60536012",
-            "https://www.cnn.com/travel/article/las-vegas-travel-covid-19-need-to-know/index.html"
-        ]
-    },
-    "16": {
-        "city": "Leeds",
-        "country": "United Kingdom",
-        "lat": 53.7997,
-        "long": -1.5492,
-        "count": 2.0,
-        "articles": [
-            "EPL: Michael Owen predicts Man Utd vs Watford, Everton vs Man City, Leeds vs Tottenham, others - Daily Post Nigeria"
-        ],
-        "urls": [
-            "https://dailypost.ng/2022/02/26/epl-michael-owen-predicts-man-utd-vs-watford-everton-vs-man-city-leeds-vs-tottenham-others/"
-        ]
-    },
-    "17": {
-        "city": "Austin",
-        "country": "United States",
-        "lat": 30.3004,
-        "long": -97.7522,
-        "count": 6.0,
-        "articles": [
-            "Bellator 275: Gegard Mousasi v Austin Vanderford headlines Bellator's debut on BBC Three",
-            "'SNL's' James Austin Johnson reveals how he perfected his Trump impersonation"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/mixed-martial-arts/60499962",
-            "https://www.cnn.com/videos/media/2022/01/26/snl-james-austin-johnson-donald-trump-impression-orig-jk.cnn"
-        ]
-    },
-    "18": {
-        "city": "Newcastle",
-        "country": "United Kingdom",
-        "lat": 55.0077,
-        "long": -1.6578,
-        "count": 2.0,
-        "articles": [
-            "Football Focus: Newcastle fans are 'the extra man' - Eddie Howe"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/av/football/60525319"
-        ]
-    },
-    "19": {
-        "city": "Munich",
-        "country": "Germany",
-        "lat": 48.1372,
-        "long": 11.5755,
-        "count": 2.0,
-        "articles": [
-            "Ukraine crisis takes centre stage at Munich Security Conference - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/world/europe/ukraine-crisis-takes-centre-stage-munich-security-conference-2022-02-18/"
-        ]
-    },
-    "20": {
-        "city": "Auckland",
-        "country": "New Zealand",
-        "lat": -36.85,
-        "long": 174.7833,
-        "count": 2.0,
-        "articles": [
-            "Protesters at Auckland Domain defy police - RNZ"
-        ],
-        "urls": [
-            "https://www.rnz.co.nz/news/national/462359/protesters-at-auckland-domain-defy-police"
-        ]
-    },
-    "21": {
-        "city": "Milan",
-        "country": "Italy",
-        "lat": 45.4669,
-        "long": 9.19,
-        "count": 3.0,
-        "articles": [
-            "Genoa 0-0 Inter Milan: Serie A champions fail to take advantage of Milan slip",
-            "A quieter gender fluidity marks Gucci\u2019s return to the Milan runway"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/football/60533459",
-            "https://amp.theguardian.com/fashion/2022/feb/25/a-quieter-gender-fluidity-marks-guccis-return-to-the-milan-runway"
-        ]
-    },
-    "22": {
-        "city": "Sevilla",
-        "country": "Spain",
-        "lat": 37.39,
-        "long": -5.99,
-        "count": 1.0,
-        "articles": [
-            "Europa League draw: West Ham get Sevilla and Rangers face Red Star Belgrade"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/football/60523333"
-        ]
-    },
-    "23": {
-        "city": "Ottawa",
-        "country": "Canada",
-        "lat": 45.4247,
-        "long": -75.695,
-        "count": 2.0,
-        "articles": [
-            "Freedom Convoy: Ottawa declares emergency over trucker Covid rules protests"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/world-us-canada-60281088"
-        ]
-    },
-    "24": {
-        "city": "Victoria",
-        "country": "Canada",
-        "lat": 48.4283,
-        "long": -123.3647,
-        "count": 1.0,
-        "articles": [
-            "Mask rules loosened as Victoria records 5874 cases, 15 deaths - The Age"
-        ],
-        "urls": [
-            "https://www.theage.com.au/national/victoria/mask-rules-loosened-as-victoria-records-5874-cases-15-deaths-20220226-p59zvn.html"
-        ]
-    },
-    "25": {
-        "city": "Hamilton",
-        "country": "Bermuda",
-        "lat": 32.2942,
-        "long": -64.7839,
-        "count": 2.0,
-        "articles": [
-            "F1 testing: Five things we learned as Lewis Hamilton fastest for Mercedes on final day - Express"
-        ],
-        "urls": [
-            "https://www.express.co.uk/sport/f1-autosport/1572175/F1-testing-Five-things-we-learned-Lewis-Hamilton-Mercedes-final-day"
-        ]
-    },
-    "26": {
-        "city": "Douglas",
-        "country": "Isle Of Man",
-        "lat": 54.15,
-        "long": -4.4819,
-        "count": 1.0,
-        "articles": [
-            "Scottish Tory leader Douglas Ross faces no action over undeclared earnings"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-scotland-scotland-politics-60527066"
-        ]
-    },
-    "27": {
-        "city": "Liverpool",
-        "country": "United Kingdom",
-        "lat": 53.4,
-        "long": -2.9833,
-        "count": 4.0,
-        "articles": [
-            "Police issue update after loud bang 'shakes homes' across Merseyside - Liverpool Echo",
-            "James starts, Lukaku benched: The Chelsea starting XI Thomas Tuchel must consider for Liverpool - football.london - Football.London"
-        ],
-        "urls": [
-            "https://www.liverpoolecho.co.uk/news/liverpool-news/police-issue-update-after-loud-23225492",
-            "https://www.football.london/chelsea-fc/news/chelsea-liverpool-tuchel-reece-james-23221757"
-        ]
-    },
-    "28": {
-        "city": "Southampton",
-        "country": "United Kingdom",
-        "lat": 50.9,
-        "long": -1.4,
-        "count": 2.0,
-        "articles": [
-            "Southampton 2-0 Norwich City: Southampton 'absolutely deserved' win - Ralph Hasenhuttl",
-            "Marieanne Spacey-Cale: Southampton manager reflects on 'magic' of FA Cup"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/av/football/60533216",
-            "https://www.bbc.co.uk/sport/football/60529387"
-        ]
-    },
-    "29": {
-        "city": "Iloilo",
-        "country": "Philippines",
-        "lat": 10.7167,
-        "long": 122.5667,
-        "count": 1.0,
-        "articles": [
-            "Kakampinks on a high: #IloiloIsPink still trends nationwide; 40,000 attend Robredo\u2019s Iloilo rally - Manila Bulletin"
-        ],
-        "urls": [
-            "https://mb.com.ph/2022/02/26/kakampinks-on-a-high-iloiloispink-still-trends-nationwide-40000-attend-robredos-iloilo-rally/"
-        ]
-    },
-    "30": {
-        "city": "Nancy",
-        "country": "France",
-        "lat": 48.6936,
-        "long": 6.1846,
-        "count": 2.0,
-        "articles": [
-            "Trans rights are at risk now, but failures in our human rights body threaten us all | Nancy Kelley"
-        ],
-        "urls": [
-            "https://amp.theguardian.com/commentisfree/2022/feb/15/trans-rights-risk-human-rights-body-threaten-all-ehrc-un"
-        ]
-    },
-    "31": {
-        "city": "Sochi",
-        "country": "Russia",
-        "lat": 43.5853,
-        "long": 39.7203,
-        "count": 1.0,
-        "articles": [
-            "Russia loses Champions League final to Paris; Sochi F1 axed - Sportsnet.ca"
-        ],
-        "urls": [
-            "https://www.sportsnet.ca/soccer/article/russia-loses-champions-league-final-to-paris-sochi-f1-axed/"
-        ]
-    },
-    "32": {
-        "city": "Vladimir",
-        "country": "Russia",
-        "lat": 56.1286,
-        "long": 40.4058,
-        "count": 32.0,
-        "articles": [
-            "Analysis: Why Donald Trump can't stop praising Vladimir Putin",
-            "What Does Vladimir Putin Want in Ukraine?"
-        ],
-        "urls": [
-            "https://www.cnn.com/2022/02/24/politics/donald-trump-praises-putin/index.html",
-            "https://www.nytimes.com/2022/02/18/us/politics/putin-ukraine.html"
-        ]
-    },
-    "33": {
-        "city": "Wuppertal",
-        "country": "Germany",
-        "lat": 51.2667,
-        "long": 7.1833,
-        "count": 1.0,
-        "articles": [
-            "Tanztheater Wuppertal Pina Bausch: Kontakthof review \u2013 the miseries of mating"
-        ],
-        "urls": [
-            "https://amp.theguardian.com/stage/2022/feb/04/tanztheater-wuppertal-pina-bausch-kontakthof-review-sadlers-wells-london"
-        ]
-    },
-    "34": {
-        "city": "Jackson",
-        "country": "United States",
-        "lat": 32.3163,
-        "long": -90.2124,
-        "count": 6.0,
-        "articles": [
-            "Biden nominates Judge Ketanji Brown Jackson to be first Black woman on Supreme Court",
-            "Biden to nominate Judge Ketanji Brown Jackson as first Black woman on Supreme Court",
-            "Ketanji Brown Jackson Chosen as Biden's Pick for Supreme Court",
-            "As Democrats Cheer Jackson Pick, Republicans Pledge Respectful Review"
-        ],
-        "urls": [
-            "https://abcnews.go.com/Politics/biden-nominates-judge-ketanji-brown-jackson-black-woman/story?id=83062953",
-            "https://abcnews.go.com/Politics/biden-nominate-judge-ketanji-brown-jackson-black-woman/story?id=83062953",
-            "https://www.nytimes.com/2022/02/25/us/politics/ketanji-brown-jackson-supreme-court.html",
-            "https://www.nytimes.com/2022/02/25/us/politics/ketanji-brown-jackson-supreme-court-republicans.html"
-        ]
-    },
-    "35": {
-        "city": "St. Petersburg",
-        "country": "United States",
-        "lat": 27.7931,
-        "long": -82.6652,
-        "count": 3.0,
-        "articles": [
-            "Paris replaces St. Petersburg as Champions League final host"
-        ],
-        "urls": [
-            "https://abcnews.go.com/Sports/wireStory/ap-source-paris-replaces-russia-champions-league-final-83103950"
-        ]
-    },
-    "36": {
-        "city": "Norfolk",
-        "country": "United States",
-        "lat": 36.8945,
-        "long": -76.259,
-        "count": 1.0,
-        "articles": [
-            "Pig industry facing 'biggest crisis' for 25 years, says Norfolk farmer"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-england-norfolk-60516864"
-        ]
-    },
-    "37": {
-        "city": "York",
-        "country": "United States",
-        "lat": 39.9651,
-        "long": -76.7315,
-        "count": 20.0,
-        "articles": [
-            "Arizona Starbucks becomes 1st outside New York to unionize",
-            "Retired Florida cop who killed man in movie theater for texting acquitted of murder - New York Post ",
-            "Jussie Smollett files motion to throw out his guilty verdict for staging hate crime - New York Post ",
-            "After a year of challenges, the latest Covid data offer New York doses of optimism.",
-            "Seeking to strengthen pay equity laws in New York - Reuters",
-            "Judge rules Donald Trump must testify in New York investigation",
-            "Trump and his children may be deposed by New York attorney general, judge rules"
-        ],
-        "urls": [
-            "https://abcnews.go.com/Business/wireStory/arizona-starbucks-1st-york-unionize-83119057",
-            "https://nypost.com/2022/02/26/curtis-reeves-retired-florida-cop-acquitted-of-murdering-chad-oulson-in-theater/",
-            "https://nypost.com/2022/02/26/jussie-smolletts-lawyers-ask-judge-to-throw-out-conviction-due-to-errors-in-trial/",
-            "https://www.nytimes.com/live/2022/02/20/world/covid-19-tests-cases-vaccine",
-            "https://www.reuters.com/legal/legalindustry/seeking-strengthen-pay-equity-laws-new-york-2022-01-27/",
-            "https://www.bbc.co.uk/news/world-us-canada-60425457",
-            "https://www.cnn.com/2022/02/17/politics/trump-subpoena-james-new-york-lawsuit/index.html"
-        ]
-    },
-    "38": {
-        "city": "Norwich",
-        "country": "United Kingdom",
-        "lat": 52.63,
-        "long": 1.297,
-        "count": 5.0,
-        "articles": [
-            "Southampton 2-0 Norwich City: Southampton 'absolutely deserved' win - Ralph Hasenhuttl",
-            "Southampton 2-0 Norwich City: Canaries 'not good enough' in first half - Dean Smith",
-            "Southampton 2-0 Norwich City: Saints edge closer to European places with win over bottom club"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/av/football/60533216",
-            "https://www.bbc.co.uk/sport/av/football/60533219",
-            "https://www.bbc.co.uk/sport/football/60426244"
-        ]
-    },
-    "39": {
-        "city": "Split",
-        "country": "Croatia",
-        "lat": 43.51,
-        "long": 16.45,
-        "count": 1.0,
-        "articles": [
-            "Republican Candidates Split Over Ukraine-Russia Crisis"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/22/us/politics/republican-candidates-split-over-ukraine-russia-crisis.html"
-        ]
-    },
-    "40": {
-        "city": "Melitopol",
-        "country": "Ukraine",
-        "lat": 46.8333,
-        "long": 35.3667,
-        "count": 5.0,
-        "articles": [
-            "Russia says it has captured Ukraine's Melitopol - The Star Online",
-            "Russian forces capture Ukrainian city of Melitopol amid missile strikes - CTV News"
-        ],
-        "urls": [
-            "https://www.thestar.com.my/news/world/2022/02/26/russia-says-it-has-captured-ukraine039s-melitopol",
-            "https://www.ctvnews.ca/world/russian-forces-capture-ukrainian-city-of-melitopol-amid-missile-strikes-1.5797299"
-        ]
-    },
-    "41": {
-        "city": "Ilagan",
-        "country": "Philippines",
-        "lat": 17.1333,
-        "long": 121.8833,
-        "count": 2.0,
-        "articles": [
-            "PBA: Diminutive Ilagan shows biggest heart, nails winner to lift Alaska past Meralco - Tiebreaker Times"
-        ],
-        "urls": [
-            "https://tiebreakertimes.com.ph/tbt/pba-diminutive-ilagan-shows-biggest-heart-nails-winner-to-lift-alaska-past-meralco/232802"
-        ]
-    },
-    "42": {
-        "city": "David",
-        "country": "Panama",
-        "lat": 8.4333,
-        "long": -82.4333,
-        "count": 4.0,
-        "articles": [
-            "Pep Guardiola, David Moyes, Ralf Rangnick & Thomas Tuchel on the Ukraine conflict",
-            "How David McCormick Is Attempting a MAGA Makeover"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/av/football/60531426",
-            "https://www.nytimes.com/2022/02/23/us/politics/david-mccormick-maga-gop.html"
-        ]
-    },
-    "43": {
-        "city": "Elizabeth",
-        "country": "United States",
-        "lat": 40.6657,
-        "long": -74.1912,
-        "count": 1.0,
-        "articles": [
-            "Queen Elizabeth II Tests Positive for Covid-19"
-        ],
-        "urls": [
-            "https://www.nytimes.com/live/2022/02/20/world/queen-elizabeth-covid"
-        ]
-    },
-    "44": {
-        "city": "Allen",
-        "country": "United States",
-        "lat": 33.1088,
-        "long": -96.6735,
-        "count": 2.0,
-        "articles": [
-            "Trump Organization and Allen Weisselberg Seek Dismissal of Fraud Charges"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/22/nyregion/trump-organization-fraud-case.html"
-        ]
-    },
-    "45": {
-        "city": "Rugby",
-        "country": "United Kingdom",
-        "lat": 52.37,
-        "long": -1.26,
-        "count": 3.0,
-        "articles": [
-            "Listen: The Rugby Breakfast Show with Johnnie Beattie & Ryan Wilson"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/av/rugby-union/60482186"
-        ]
-    },
-    "46": {
-        "city": "Rio Tinto",
-        "country": "Portugal",
-        "lat": 41.1833,
-        "long": -8.5667,
-        "count": 1.0,
-        "articles": [
-            "Investors urge miners to change ways after damning Rio Tinto workplace report - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/business/investors-urge-miners-change-ways-after-damning-rio-tinto-workplace-report-2022-02-02/"
-        ]
-    },
-    "47": {
-        "city": "Waterford",
-        "country": "Ireland",
-        "lat": 52.2583,
-        "long": -7.119,
-        "count": 1.0,
-        "articles": [
-            "EXPLAINER: Did the use of hand sanitiser during Covid-19 pandemic damage the environment? - Waterford Live"
-        ],
-        "urls": [
-            "https://www.waterfordlive.ie/news/national-news/752995/explainer-did-the-use-of-hand-sanitiser-during-covid-19-pandemic-damage-the-environment.html"
-        ]
-    },
-    "48": {
-        "city": "Mercedes",
-        "country": "Uruguay",
-        "lat": -33.25,
-        "long": -58.0319,
-        "count": 3.0,
-        "articles": [
-            "F1 testing: Five things we learned as Lewis Hamilton fastest for Mercedes on final day - Express"
-        ],
-        "urls": [
-            "https://www.express.co.uk/sport/f1-autosport/1572175/F1-testing-Five-things-we-learned-Lewis-Hamilton-Mercedes-final-day"
-        ]
-    },
-    "49": {
-        "city": "University",
-        "country": "United States",
-        "lat": 28.0771,
-        "long": -82.4335,
-        "count": 1.0,
-        "articles": [
-            "Malaria: Aberystwyth University drone system used in Zanzibar"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-wales-60509702"
-        ]
-    },
-    "50": {
-        "city": "Sutton",
-        "country": "United Kingdom",
-        "lat": 51.3656,
-        "long": -0.1963,
-        "count": 1.0,
-        "articles": [
-            "How Hugh Jackman, Sutton Foster and \u2018The Music Man\u2019 Withstood Covid"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/02/theater/music-man-broadway-hugh-jackman.html"
-        ]
-    },
-    "51": {
-        "city": "Small Heath",
-        "country": "United Kingdom",
-        "lat": 52.4629,
-        "long": -1.8542,
-        "count": 1.0,
-        "articles": [
-            "Peaky Blinders: Birmingham City revert to Small Heath Alliance"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-england-birmingham-60523752"
-        ]
-    },
-    "52": {
-        "city": "Chelsea",
-        "country": "United States",
-        "lat": 42.3959,
-        "long": -71.0325,
-        "count": 5.0,
-        "articles": [
-            "How Chelsea learned to tap into the potential of their 'world class' academy",
-            "10 things to know ahead of Liverpool\u2019s League Cup final vs. Chelsea - This Is Anfield",
-            "James starts, Lukaku benched: The Chelsea starting XI Thomas Tuchel must consider for Liverpool - football.london - Football.London"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/football/60465360",
-            "https://www.thisisanfield.com/?p=262075",
-            "https://www.football.london/chelsea-fc/news/chelsea-liverpool-tuchel-reece-james-23221757"
-        ]
-    },
-    "53": {
-        "city": "Florida",
-        "country": "Uruguay",
-        "lat": -34.1,
-        "long": -56.2167,
-        "count": 5.0,
-        "articles": [
-            "Retired Florida cop who killed man in movie theater for texting acquitted of murder - New York Post ",
-            "White House Denounces Florida GOP Over \u2018Don\u2019t Say Gay\u2019 Bill"
-        ],
-        "urls": [
-            "https://nypost.com/2022/02/26/curtis-reeves-retired-florida-cop-acquitted-of-murdering-chad-oulson-in-theater/",
-            "https://www.huffpost.com/entry/white-house-denounce-florida-dont-say-gay-bill_n_6202e882e4b0f923ded6cc1c"
-        ]
-    },
-    "54": {
-        "city": "West Ham",
-        "country": "United Kingdom",
-        "lat": 51.5347,
-        "long": 0.0077,
-        "count": 2.0,
-        "articles": [
-            "Europa League draw: West Ham get Sevilla and Rangers face Red Star Belgrade"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/football/60523333"
-        ]
-    },
-    "55": {
-        "city": "Penarth",
-        "country": "United Kingdom",
-        "lat": 51.43,
-        "long": -3.17,
-        "count": 1.0,
-        "articles": [
-            "Covid: Welsh Government announce new vaccine strategy - Penarth Times"
-        ],
-        "urls": [
-            "https://www.penarthtimes.co.uk/news/19950376.covid-welsh-government-announce-new-vaccine-strategy/"
-        ]
-    },
-    "56": {
-        "city": "March",
-        "country": "United Kingdom",
-        "lat": 52.551,
-        "long": 0.088,
-        "count": 8.0,
-        "articles": [
-            "Israel to open borders to unvaccinated tourists March 1"
-        ],
-        "urls": [
-            "https://www.cnn.com/travel/article/israel-opens-borders-unvaccinated-tourists-march-1/index.html"
-        ]
-    },
-    "57": {
-        "city": "Stone",
-        "country": "United Kingdom",
-        "lat": 52.9,
-        "long": -2.15,
-        "count": 1.0,
-        "articles": [
-            "Roger Stone Sues Jan. 6 Panel to Block Access to Phone Data"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/24/us/politics/roger-stone-jan-6-panel.html"
-        ]
-    },
-    "58": {
-        "city": "Street",
-        "country": "United Kingdom",
-        "lat": 51.1235,
-        "long": -2.7381,
-        "count": 13.0,
-        "articles": [
-            "Wall Street Week Ahead: Some investors wary of 'buying the dip' as Ukraine, Fed gyrate stocks - Reuters",
-            "'Wall Street Journal' and its owners hit by cyberattack linked to China",
-            "How a Bike Messenger Reinvented Himself as a Street Musician",
-            "Australia shares track Wall Street lower amid Ukraine crisis - Reuters",
-            "LIVE MARKETS Wall Street ends sharply lower as war fears increase - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/business/wall-st-week-ahead-some-investors-wary-buying-dip-ukraine-fed-gyrate-stocks-2022-02-25/",
-            "https://www.engadget.com/news-corp-cyberattack-wsj-new-york-post-china-154139625.html",
-            "https://www.nytimes.com/2022/02/04/nyregion/sammy-buttons-sidewalk-musician-nyc.html",
-            "https://www.reuters.com/markets/stocks/australia-shares-track-wall-street-lower-amid-ukraine-crisis-2022-02-15/",
-            "https://www.reuters.com/markets/asia/live-markets-wall-street-ends-sharply-lower-war-fears-increase-2022-02-17/"
-        ]
-    },
-    "59": {
-        "city": "Media",
-        "country": "United States",
-        "lat": 39.9198,
-        "long": -75.3888,
-        "count": 2.0,
-        "articles": [
-            "China: Media freedom declining at 'breakneck speed' - report",
-            "Durham Distances Himself From Furor in Right-Wing Media Over Filing"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/world-asia-china-60174238",
-            "https://www.nytimes.com/2022/02/17/us/durham-right-wing-media-trump.html"
-        ]
-    },
-    "60": {
-        "city": "Rubio",
-        "country": "Venezuela",
-        "lat": 7.7,
-        "long": -72.35,
-        "count": 2.0,
-        "articles": [
-            "How Rubio navigated Trump as he's favored to keep his seat"
-        ],
-        "urls": [
-            "https://www.cnn.com/2022/02/17/politics/marco-rubio-reelection-donald-trump/index.html"
-        ]
-    },
-    "61": {
-        "city": "Luj\u00e1n",
-        "country": "Argentina",
-        "lat": -34.5703,
-        "long": -59.105,
-        "count": 1.0,
-        "articles": [
-            "Senator Ben Ray Luj\u00e1n Recovering After Suffering Stroke"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/01/us/politics/ben-ray-lujan-stroke.html"
-        ]
-    },
-    "62": {
-        "city": "Most",
-        "country": "Czechia",
-        "lat": 50.5031,
-        "long": 13.6367,
-        "count": 2.0,
-        "articles": [
-            "Analysis: Most Americans and Republicans side with Pence over Trump",
-            "The People Most Impacted by Climate Change Are Ready to Put Their Bodies on the Line"
-        ],
-        "urls": [
-            "https://www.cnn.com/2022/02/09/politics/electoral-count-act-pence-poll/index.html",
-            "https://gizmodo.com/yale-climate-polling-civil-disobedience-1848433173"
-        ]
-    },
-    "63": {
-        "city": "Jupiter",
-        "country": "United States",
-        "lat": 26.9199,
-        "long": -80.1128,
-        "count": 1.0,
-        "articles": [
-            "A lunar return, a Jupiter moon, the most powerful rocket ever built and the James Webb Space Telescope \u2013 space missions to watch in the coming months - Stuff Magazines"
-        ],
-        "urls": [
-            "https://stuff.co.za/2022/02/26/a-lunar-return-a-jupiter-moon-the-most-powerful-rocket-ever-built-and-the-james-webb-space-telescope-space-missions-to-watch-in-the-coming-months/"
-        ]
-    },
-    "64": {
-        "city": "Moore",
-        "country": "United States",
-        "lat": 35.3293,
-        "long": -97.4758,
-        "count": 2.0,
-        "articles": [
-            "No defamation in assault case involving former Alabama senate candidate Roy Moore - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/world/us/no-defamation-assault-case-involving-former-alabama-senate-candidate-roy-moore-2022-02-02/"
-        ]
-    },
-    "65": {
-        "city": "Taylor",
-        "country": "United States",
-        "lat": 42.226,
-        "long": -83.2688,
-        "count": 4.0,
-        "articles": [
-            "Ben Stiller and Christine Taylor 'never even dated other people' after they separated - New Zealand Herald",
-            "Bobsledder Elana Meyers Taylor Tests Positive Amid U.S. Team Outbreak"
-        ],
-        "urls": [
-            "https://www.nzherald.co.nz/entertainment/ben-stiller-and-christine-taylor-never-even-dated-other-people-after-they-separated/XH6COKXSI5HYUMHP4Y4YUS6IRM/",
-            "https://www.nytimes.com/2022/02/01/sports/olympics/elana-meyers-taylor-coronavirus-olympics.html"
-        ]
-    },
-    "66": {
-        "city": "Parker",
-        "country": "United States",
-        "lat": 39.5084,
-        "long": -104.7753,
-        "count": 1.0,
-        "articles": [
-            "That\u2019s hottttt! Parker Solar Probe touches the sun again, feels the heat at 760 degrees Celsius - India Today"
-        ],
-        "urls": [
-            "https://www.indiatoday.in/science/story/parker-solar-probe-sun-heat-nasa-1918131-2022-02-26"
-        ]
-    },
-    "67": {
-        "city": "Malay",
-        "country": "Philippines",
-        "lat": 11.9,
-        "long": 121.9167,
-        "count": 1.0,
-        "articles": [
-            "Report: Malaysian diplomats in Kyiv escaping by road, some 782km after evacuation bungle - Malay Mail"
-        ],
-        "urls": [
-            "https://www.malaymail.com/news/malaysia/2022/02/26/report-malaysian-diplomats-in-kyiv-escaping-by-road-some-782km-after-evacua/2044094"
-        ]
-    },
-    "68": {
-        "city": "Cornwall",
-        "country": "Canada",
-        "lat": 45.0275,
-        "long": -74.74,
-        "count": 2.0,
-        "articles": [
-            "Camilla, Duchess of Cornwall tests positive for Covid-19"
-        ],
-        "urls": [
-            "https://www.cnn.com/2022/02/14/europe/camilla-covid-intl-scli/index.html"
-        ]
-    },
-    "69": {
-        "city": "Jones",
-        "country": "Philippines",
-        "lat": 16.5583,
-        "long": 121.7,
-        "count": 8.0,
-        "articles": [
-            "NBC Says Leslie Jones Can Keep Offering Olympics Commentary",
-            "White House Chooses Doug Jones to Guide Supreme Court Nominee",
-            "Former Sen. Doug Jones will guide Biden's Supreme Court nominee through confirmation: report",
-            "Dr. Oz turns to law firm Jones Day for consulting in U.S. Senate bid - Reuters"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/07/sports/olympics/leslie-jones-olympics-nbc.html",
-            "https://www.nytimes.com/2022/02/01/us/politics/doug-jones-supreme-court.html",
-            "https://www.businessinsider.com/doug-jones-sherpa-biden-supreme-court-nominee-senate-confirmation-hearings-2022-2",
-            "https://www.reuters.com/legal/litigation/dr-oz-turns-law-firm-jones-day-consulting-us-senate-bid-2022-02-01/"
-        ]
-    },
-    "70": {
-        "city": "Northampton",
-        "country": "United States",
-        "lat": 40.2104,
-        "long": -75.0014,
-        "count": 2.0,
-        "articles": [
-            "Six Nations 2022: Northampton team-mates Courtney Lawes & Dan Biggar face off"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/rugby-union/60528958"
-        ]
-    },
-    "71": {
-        "city": "Clinton",
-        "country": "United States",
-        "lat": 38.7499,
-        "long": -76.9063,
-        "count": 2.0,
-        "articles": [
-            "Republicans Who Railed About Clinton Emails Are Quiet on Trump\u2019s Records"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/10/us/politics/trump-national-archives-documents-republicans.html"
-        ]
-    },
-    "72": {
-        "city": "Puerto Rico",
-        "country": "Colombia",
-        "lat": 1.9075,
-        "long": -75.1583,
-        "count": 1.0,
-        "articles": [
-            "Hawaii and Puerto Rico Will Soon Be Mask Mandate Outliers"
-        ],
-        "urls": [
-            "https://www.nytimes.com/live/2022/02/22/world/covid-19-tests-cases-vaccine"
-        ]
-    },
-    "73": {
-        "city": "Police",
-        "country": "Poland",
-        "lat": 53.55,
-        "long": 14.5708,
-        "count": 6.0,
-        "articles": [
-            "Bank Robbery: Police confirm recovery of N37 million, five abandoned vehicles - Premium Times",
-            "Live: Police with riot gear rush to Parliament protest, have set up road block - New Zealand Herald",
-            "Stealth Traffic Police officers were so polite that motorcyclist isn't upset being booked - AsiaOne",
-            "COVID-19: Police Association wants unvaccinated cops back on the job after court ruling on mandates - Newshub"
-        ],
-        "urls": [
-            "https://www.premiumtimesng.com/news/top-news/513956-bank-robbery-police-confirm-recovery-of-n37-million-five-abandoned-vehicles.html",
-            "https://www.nzherald.co.nz/nz/covid-19-omicron-outbreak-live-police-with-riot-gear-rush-to-parliament-protest-have-set-up-road-block/V5KNM7WFFL4FFSHXASCOCWZ55U/",
-            "https://www.asiaone.com/singapore/stealth-traffic-police-officers-were-so-polite-motorcyclist-isnt-upset-being-booked",
-            "https://www.newshub.co.nz/home/politics/2022/02/covid-19-police-association-wants-unvaccinated-cops-back-on-the-job-after-court-ruling-on-mandates.html"
-        ]
-    },
-    "74": {
-        "city": "Petersburg",
-        "country": "United States",
-        "lat": 37.2043,
-        "long": -77.3913,
-        "count": 3.0,
-        "articles": [
-            "Paris replaces St. Petersburg as Champions League final host"
-        ],
-        "urls": [
-            "https://abcnews.go.com/Sports/wireStory/ap-source-paris-replaces-russia-champions-league-final-83103950"
-        ]
-    },
-    "75": {
-        "city": "Ross",
-        "country": "United States",
-        "lat": 40.5256,
-        "long": -80.0243,
-        "count": 1.0,
-        "articles": [
-            "Scottish Tory leader Douglas Ross faces no action over undeclared earnings"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-scotland-scotland-politics-60527066"
-        ]
-    },
-    "76": {
-        "city": "Green",
-        "country": "United States",
-        "lat": 40.9483,
-        "long": -81.4757,
-        "count": 5.0,
-        "articles": [
-            "Australia's Green becomes first woman to win mixed-gender event - Reuters",
-            "Australian Hannah Green becomes first woman to win pro mixed-gender event"
-        ],
-        "urls": [
-            "https://www.reuters.com/lifestyle/sports/australias-green-becomes-first-woman-win-mixed-gender-event-2022-02-20/",
-            "https://amp.theguardian.com/sport/2022/feb/20/golf-australian-hannah-green-becomes-first-woman-to-win-pro-mixed-gender-event"
-        ]
-    },
-    "77": {
-        "city": "Wall",
-        "country": "United States",
-        "lat": 40.1674,
-        "long": -74.0974,
-        "count": 12.0,
-        "articles": [
-            "Breakingviews - Citi's Jane Fraser embodies Wall Street's pay gap - Reuters",
-            "Australia shares track Wall Street lower amid Ukraine crisis - Reuters",
-            "LIVE MARKETS Wall Street ends sharply lower as war fears increase - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/breakingviews/citis-jane-fraser-embodies-wall-streets-pay-gap-2022-02-15/",
-            "https://www.reuters.com/markets/stocks/australia-shares-track-wall-street-lower-amid-ukraine-crisis-2022-02-15/",
-            "https://www.reuters.com/markets/asia/live-markets-wall-street-ends-sharply-lower-war-fears-increase-2022-02-17/"
-        ]
-    },
-    "78": {
-        "city": "Unity",
-        "country": "United States",
-        "lat": 40.2811,
-        "long": -79.4236,
-        "count": 1.0,
-        "articles": [
-            "Once a Foreign Policy Partner, Congress Struggles for Unity on Ukraine"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/22/us/politics/congress-ukraine-russia.html"
-        ]
-    },
-    "79": {
-        "city": "Kant",
-        "country": "Kyrgyzstan",
-        "lat": 42.8833,
-        "long": 74.85,
-        "count": 2.0,
-        "articles": [
-            "Peter von Kant review \u2013 gender-flipped Fassbinder does away with the bitter tears"
-        ],
-        "urls": [
-            "https://amp.theguardian.com/film/2022/feb/11/peter-von-kant-review-francois-ozon-fassbinder-berlin-film-festival"
-        ]
-    },
-    "80": {
-        "city": "Golden",
-        "country": "United States",
-        "lat": 39.7406,
-        "long": -105.2118,
-        "count": 2.0,
-        "articles": [
-            "Women dominate Berlin film festival as Alcarr\u00e0s wins Golden Bear"
-        ],
-        "urls": [
-            "https://amp.theguardian.com/film/2022/feb/17/women-dominate-berlin-film-festival-as-alcarras-wins-golden-bear"
-        ]
-    },
-    "81": {
-        "city": "Time",
-        "country": "Norway",
-        "lat": 58.7228,
-        "long": 5.7653,
-        "count": 4.0,
-        "articles": [
-            "Politicians Say It\u2019s Time to Live With Covid. Are You Ready?",
-            "Some U.S. Governors Say It\u2019s Time for an Endemic Approach to Covid",
-            "How Much Watching Time Do You Have This Weekend?",
-            "A \u2018Master Class\u2019 in Gerrymandering, This Time Led by N.Y. Democrats"
-        ],
-        "urls": [
-            "https://www.wired.com/story/living-with-covid-new-normal/",
-            "https://www.nytimes.com/live/2022/01/31/world/omicron-covid-vaccine-tests",
-            "https://www.nytimes.com/2022/02/10/arts/television/bel-air-whitney-houston-national-anthem.html",
-            "https://www.nytimes.com/2022/02/02/nyregion/redistricting-gerrymandering-ny.html"
-        ]
-    },
-    "82": {
-        "city": "Aberystwyth",
-        "country": "United Kingdom",
-        "lat": 52.414,
-        "long": -4.081,
-        "count": 1.0,
-        "articles": [
-            "Malaria: Aberystwyth University drone system used in Zanzibar"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-wales-60509702"
-        ]
-    },
-    "83": {
-        "city": "Russell",
-        "country": "Canada",
-        "lat": 45.2569,
-        "long": -75.3583,
-        "count": 2.0,
-        "articles": [
-            "Hamilton quickest in testing - but Russell says 'don't read too much into times'"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/formula1/60521858"
-        ]
-    },
-    "84": {
-        "city": "White",
-        "country": "United States",
-        "lat": 40.621,
-        "long": -79.1513,
-        "count": 35.0,
-        "articles": [
-            "Photos: See Chloe Kim and Shaun White in Snowboarding Halfpipe",
-            "Joe Rogan: White House praises Spotify's new Covid disclaimers",
-            "Trump Gives Documents Improperly Taken From White House to Archives",
-            "Investigators Find Gaps in White House Logs of Trump\u2019s Jan. 6 Calls",
-            "Biden Rejects Trump\u2019s Claim of Privilege for White House Visitor Logs",
-            "Some Trump White House records handed over to January 6 committee had been ripped up",
-            "Shaun White Is Still Afraid at His Last Olympics. He Deals With It.",
-            "'It's a badge of honour being the oldest' - American Olympic great White on bid for fourth gold"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/08/sports/olympics/photos-halfpipe-snowboarding.html",
-            "https://www.bbc.co.uk/news/world-us-canada-60221522",
-            "https://www.nytimes.com/2022/02/07/us/politics/trump-national-archives-documents.html",
-            "https://www.nytimes.com/2022/02/10/us/politics/jan-6-trump-calls.html",
-            "https://www.nytimes.com/2022/02/16/us/politics/biden-trump-white-house-visitor-logs.html",
-            "https://www.cnn.com/2022/01/31/politics/trump-torn-documents/index.html",
-            "https://www.nytimes.com/2022/02/08/sports/olympics/shaun-white-olympics-snowboard.html",
-            "https://www.bbc.co.uk/sport/winter-olympics/60155725"
-        ]
-    },
-    "85": {
-        "city": "Mitchell",
-        "country": "United States",
-        "lat": 43.7296,
-        "long": -98.0337,
-        "count": 2.0,
-        "articles": [
-            "Joni Mitchell wants songs removed from Spotify"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/world-60177933"
-        ]
-    },
-    "86": {
-        "city": "Fate",
-        "country": "United States",
-        "lat": 32.9429,
-        "long": -96.3858,
-        "count": 1.0,
-        "articles": [
-            "Olympics Updates: Valieva Awaits Her Olympic Fate Following Hearing"
-        ],
-        "urls": [
-            "https://www.nytimes.com/live/2022/02/13/sports/olympics-medals-winter"
-        ]
-    },
-    "87": {
-        "city": "Dunn",
-        "country": "United States",
-        "lat": 35.3113,
-        "long": -78.6129,
-        "count": 2.0,
-        "articles": [
-            "Sanction threat looms for Facebook and Gibson Dunn in privacy class action - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/legal/litigation/sanction-threat-looms-facebook-gibson-dunn-privacy-class-action-2022-02-14/"
-        ]
-    },
-    "88": {
-        "city": "Much",
-        "country": "Germany",
-        "lat": 50.9167,
-        "long": 7.4,
-        "count": 2.0,
-        "articles": [
-            "Hospitals Complain Nurses Making Too Much Money During Covid-19 Pandemic",
-            "How Much Watching Time Do You Have This Weekend?"
-        ],
-        "urls": [
-            "https://gizmodo.com/hospitals-complain-nurses-making-too-much-money-during-1848505160",
-            "https://www.nytimes.com/2022/02/10/arts/television/bel-air-whitney-houston-national-anthem.html"
-        ]
-    },
-    "89": {
-        "city": "Fraser",
-        "country": "United States",
-        "lat": 42.5388,
-        "long": -82.9496,
-        "count": 1.0,
-        "articles": [
-            "Breakingviews - Citi's Jane Fraser embodies Wall Street's pay gap - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/breakingviews/citis-jane-fraser-embodies-wall-streets-pay-gap-2022-02-15/"
-        ]
-    },
-    "90": {
-        "city": "Sweden",
-        "country": "United States",
-        "lat": 43.1791,
-        "long": -77.9406,
-        "count": 1.0,
-        "articles": [
-            "Russia warns of 'military consequences' if Finland and Sweden join Nato - Telegraph.co.uk"
-        ],
-        "urls": [
-            "https://www.telegraph.co.uk/world-news/2022/02/25/russia-threatens-finland-sweden-joining-nato-ukraine-invasion/"
-        ]
-    },
-    "91": {
-        "city": "Adams",
-        "country": "United States",
-        "lat": 40.7092,
-        "long": -80.012,
-        "count": 2.0,
-        "articles": [
-            "How Eric Adams Mixes Tough Talk With Superfood Smoothies"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/14/us/politics/eric-adams-wellness-vegan.html"
-        ]
-    },
-    "92": {
-        "city": "Wake",
-        "country": "Japan",
-        "lat": 34.8028,
-        "long": 134.1575,
-        "count": 1.0,
-        "articles": [
-            "Business Updates: Global Markets Are Calm in Wake of Russia Sanctions"
-        ],
-        "urls": [
-            "https://www.nytimes.com/live/2022/02/23/business/stock-market-economy-news"
-        ]
-    },
-    "93": {
-        "city": "Powell",
-        "country": "United States",
-        "lat": 40.1684,
-        "long": -83.0826,
-        "count": 8.0,
-        "articles": [
-            "Senate Republican leader McConnell to meet with Fed's Powell on inflation - Reuters",
-            "U.S. Senate panel to vote on Fed's Powell on Feb. 15 -Punchbowl News - Reuters",
-            "Fed Chair Powell to become 'pro tempore' as he awaits Senate action - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/world/us/senate-republican-leader-mcconnell-meet-with-feds-powell-inflation-2022-02-15/",
-            "https://www.reuters.com/article/usa-fed-nominees-idUSW1N2SV04I",
-            "https://www.reuters.com/business/fed-chair-powell-become-pro-tempore-he-awaits-senate-action-2022-02-04/"
-        ]
-    },
-    "94": {
-        "city": "Globe",
-        "country": "United States",
-        "lat": 33.3869,
-        "long": -110.7515,
-        "count": 2.0,
-        "articles": [
-            "From gasoline to beer: How war in Ukraine could affect inflation - The Globe and Mail",
-            "Russian troops enter Kyiv as residents urged to fight - The Globe and Mail"
-        ],
-        "urls": [
-            "https://www.theglobeandmail.com/investing/personal-finance/household-finances/article-from-gasoline-to-beer-how-war-in-ukraine-could-affect-inflation/",
-            "https://www.theglobeandmail.com/world/article-russian-troops-push-in-to-kyiv-as-war-wages-throughout-ukraine/"
-        ]
-    },
-    "95": {
+    "1": {
         "city": "White House",
         "country": "United States",
         "lat": 36.4648,
@@ -1463,368 +71,115 @@
             "https://www.cnn.com/2022/01/31/politics/trump-torn-documents/index.html"
         ]
     },
-    "96": {
-        "city": "Justice",
+    "2": {
+        "city": "Moscow",
+        "country": "Russia",
+        "lat": 55.7558,
+        "long": 37.6178,
+        "count": 22.0,
+        "articles": [
+            "Russia Ukraine: US sends Moscow formal response over crisis",
+            "Scholz flies to Moscow in bid to avert war - Reuters"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/world-europe-60145159",
+            "https://www.reuters.com/world/europe/scholz-flies-moscow-bid-avert-war-2022-02-15/"
+        ]
+    },
+    "3": {
+        "city": "New York",
         "country": "United States",
-        "lat": 41.7495,
-        "long": -87.8345,
-        "count": 4.0,
-        "articles": [
-            "Who Is Judge Ketanji Brown Jackson? A Leading Candidate to Succeed Justice Breyer",
-            "Democrats Plan to Move Quickly on Justice Breyer's Successor"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/01/26/us/politics/ketanji-brown-jackson-supreme-court.html",
-            "https://www.nytimes.com/2022/01/26/us/politics/senate-democrats-breyer-vacancy.html"
-        ]
-    },
-    "97": {
-        "city": "Cheney",
-        "country": "United States",
-        "lat": 47.4901,
-        "long": -117.579,
-        "count": 1.0,
-        "articles": [
-            "Romney, other Trump critics to raise money for Liz Cheney re-election effort - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/world/us/romney-other-trump-critics-raise-money-liz-cheney-re-election-effort-2022-01-26/"
-        ]
-    },
-    "98": {
-        "city": "Virginia",
-        "country": "United States",
-        "lat": 47.5169,
-        "long": -92.5128,
-        "count": 1.0,
-        "articles": [
-            "Covid Live News: Virginia Judge Blocks Youngkin\u2019s Order on Optional School Masks"
-        ],
-        "urls": [
-            "https://www.nytimes.com/live/2022/02/05/world/covid-test-vaccine-cases"
-        ]
-    },
-    "99": {
-        "city": "Young",
-        "country": "Australia",
-        "lat": -34.3,
-        "long": 148.3,
-        "count": 3.0,
-        "articles": [
-            "Pfizer Expected to Ask F.D.A. to Authorize Vaccine for Young Children",
-            "Neil Young was fed up with Spotify\u2019s \u2018shitty\u2019 sound quality anyway"
-        ],
-        "urls": [
-            "https://www.nytimes.com/live/2022/02/01/world/covid-19-cases-vaccine",
-            "https://www.engadget.com/neil-young-spotify-sound-quality-joe-rogan-vaccine-misinformation-205817478.html"
-        ]
-    },
-    "100": {
-        "city": "Heath",
-        "country": "United States",
-        "lat": 40.0241,
-        "long": -82.4412,
-        "count": 1.0,
-        "articles": [
-            "Peaky Blinders: Birmingham City revert to Small Heath Alliance"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-england-birmingham-60523752"
-        ]
-    },
-    "101": {
-        "city": "Star",
-        "country": "United States",
-        "lat": 43.7013,
-        "long": -116.4934,
-        "count": 8.0,
-        "articles": [
-            "Europa League draw: West Ham get Sevilla and Rangers face Red Star Belgrade",
-            "Dining Is Fully Immersive in Star Wars: Galactic Starcruiser",
-            "Russia says it has captured Ukraine's Melitopol - The Star Online",
-            "For The First Time, a Tatooine-Like Planet Has Been Detected Via a Wobbling Star - ScienceAlert",
-            "Covid-19: Slight dip in daily cases to 30644 on Friday (Feb 25) - The Star Online"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/football/60523333",
-            "https://disneyparks.disney.go.com/blog/2022/02/dining-is-fully-immersive-in-star-wars-galactic-starcruiser/",
-            "https://www.thestar.com.my/news/world/2022/02/26/russia-says-it-has-captured-ukraine039s-melitopol",
-            "https://www.sciencealert.com/for-the-first-time-a-planet-orbiting-two-stars-has-been-detected-via-stellar-wobbling",
-            "https://www.thestar.com.my/news/nation/2022/02/26/covid-19-slight-dip-in-daily-cases-to-30644-on-friday-feb-25"
-        ]
-    },
-    "102": {
-        "city": "Worth",
-        "country": "United States",
-        "lat": 41.6877,
-        "long": -87.7916,
-        "count": 1.0,
-        "articles": [
-            "Short-Track Speedskating: How It Works and Who\u2019s Worth Watching"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/07/sports/olympics/speedskating-short-track.html"
-        ]
-    },
-    "103": {
-        "city": "Carroll",
-        "country": "United States",
-        "lat": 42.0699,
-        "long": -94.8647,
-        "count": 2.0,
-        "articles": [
-            "E. Jean Carroll no longer seeks Trump's deposition in defamation lawsuit"
-        ],
-        "urls": [
-            "https://www.cnn.com/2022/02/22/politics/e-jean-carroll-trump/index.html"
-        ]
-    },
-    "104": {
-        "city": "Cameron",
-        "country": "United States",
-        "lat": 39.7469,
-        "long": -94.2364,
-        "count": 3.0,
-        "articles": [
-            "Mexican Open: Daniil Medvedev to face Rafael Nadal, Cameron Norrie plays Stefanos Tsitsipas",
-            "Mexican Open: Rafael Nadal beats Daniil Medvedev & meets Cameron Norrie in Acapulco final"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/sport/tennis/60502201",
-            "https://www.bbc.co.uk/sport/tennis/60528500"
-        ]
-    },
-    "105": {
-        "city": "Hope",
-        "country": "United States",
-        "lat": 33.6682,
-        "long": -93.5895,
-        "count": 1.0,
-        "articles": [
-            "Eileen Gu Is China's Freestyle Hope for the Olympics"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/03/sports/olympics/eileen-gu-china-freeski.html"
-        ]
-    },
-    "106": {
-        "city": "Fully",
-        "country": "Switzerland",
-        "lat": 46.1333,
-        "long": 7.1167,
-        "count": 1.0,
-        "articles": [
-            "Dining Is Fully Immersive in Star Wars: Galactic Starcruiser"
-        ],
-        "urls": [
-            "https://disneyparks.disney.go.com/blog/2022/02/dining-is-fully-immersive-in-star-wars-galactic-starcruiser/"
-        ]
-    },
-    "107": {
-        "city": "Kennedy",
-        "country": "United States",
-        "lat": 40.4767,
-        "long": -80.1028,
-        "count": 2.0,
-        "articles": [
-            "Robert Kennedy Jr.'s Crusade Against Covid Vaccine Anguishes Family"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/26/us/robert-kennedy-covid-vaccine.html"
-        ]
-    },
-    "108": {
-        "city": "Meta",
-        "country": "Italy",
-        "lat": 40.6417,
-        "long": 14.4167,
-        "count": 3.0,
-        "articles": [
-            "Whistleblower group says Meta misled investors over misinformation",
-            "Facebook-owner Meta says it will pay new $2 million UK fine - Reuters"
-        ],
-        "urls": [
-            "https://www.engadget.com/meta-climate-change-covid-19-misinformation-sec-complaint-192140322.html",
-            "https://www.reuters.com/technology/facebook-owner-meta-says-it-will-pay-new-2-million-uk-fine-2022-02-04/"
-        ]
-    },
-    "109": {
-        "city": "Polk",
-        "country": "United States",
-        "lat": 40.9291,
-        "long": -75.5022,
-        "count": 2.0,
-        "articles": [
-            "Davis Polk ups senior associate salaries in latest round of pay war - Reuters"
-        ],
-        "urls": [
-            "https://www.reuters.com/legal/legalindustry/davis-polk-ups-senior-associate-salaries-latest-round-pay-war-2022-02-22/"
-        ]
-    },
-    "110": {
-        "city": "Grabs",
-        "country": "Switzerland",
-        "lat": 47.1831,
-        "long": 9.45,
-        "count": 1.0,
-        "articles": [
-            "5 Gold Medals Are Up for Grabs on the Last Day of the Games"
-        ],
-        "urls": [
-            "https://www.nytimes.com/live/2022/02/19/sports/olympics-medals-winter"
-        ]
-    },
-    "111": {
-        "city": "Clarkson",
-        "country": "United States",
-        "lat": 43.2533,
-        "long": -77.9228,
-        "count": 2.0,
-        "articles": [
-            "Jeremy Clarkson receives backlash after foul-mouthed Nikita Mazepin outburst - The Mirror"
-        ],
-        "urls": [
-            "https://www.mirror.co.uk/sport/formula-1/jeremy-clarkson-nikita-mazepin-russia-26333910"
-        ]
-    },
-    "112": {
-        "city": "Heathrow",
-        "country": "United States",
-        "lat": 28.7753,
-        "long": -81.3721,
-        "count": 3.0,
-        "articles": [
-            "BA cancels short-haul Heathrow flights amid technical woes",
-            "British Airways cancels all short-haul flights from Heathrow until midday due to ongoing 'technical issues' - Sky News"
-        ],
-        "urls": [
-            "https://abcnews.go.com/International/wireStory/ba-cancels-short-haul-heathrow-flights-amid-technical-83125301",
-            "https://news.sky.com/story/british-airways-cancels-all-short-haul-flights-from-heathrow-until-midday-due-to-ongoing-technical-issues-12551874"
-        ]
-    },
-    "113": {
-        "city": "Battle",
-        "country": "United Kingdom",
-        "lat": 50.92,
-        "long": 0.48,
-        "count": 3.0,
-        "articles": [
-            "Scotland's papers: Battle to save Kyiv as the world watches on",
-            "The Papers: Battle for Kyiv as 'Russian forces descend'",
-            "Billionaires and Big Checks Shape Battle for Congress"
-        ],
-        "urls": [
-            "https://www.bbc.co.uk/news/uk-scotland-60533044",
-            "https://www.bbc.co.uk/news/blogs-the-papers-60533145",
-            "https://www.nytimes.com/2022/02/01/us/politics/midterms-campaign-financing.html"
-        ]
-    },
-    "114": {
-        "city": "King",
-        "country": "United States",
-        "lat": 36.2766,
-        "long": -80.3564,
-        "count": 1.0,
-        "articles": [
-            "Canada protest convoy organizer Pat King denied bail"
-        ],
-        "urls": [
-            "https://abcnews.go.com/International/wireStory/canada-protest-convoy-organizer-pat-king-denied-bail-83115848"
-        ]
-    },
-    "115": {
-        "city": "Broadway",
-        "country": "United States",
-        "lat": 38.6083,
-        "long": -78.8016,
-        "count": 2.0,
-        "articles": [
-            "A Broadway Conductor's Difficult Journey Back from Long Covid"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/24/nyregion/joel-fram-broadway-covid.html"
-        ]
-    },
-    "116": {
-        "city": "Collins",
-        "country": "United States",
-        "lat": 42.4908,
-        "long": -78.8623,
-        "count": 1.0,
-        "articles": [
-            "Analysis: Susan Collins won't say whether she'd back Donald Trump in 2024. Why not?"
-        ],
-        "urls": [
-            "https://www.cnn.com/2022/01/31/politics/susan-collins-trump-2024-election-support/index.html"
-        ]
-    },
-    "117": {
-        "city": "Alexandra",
-        "country": "New Zealand",
-        "lat": -45.2492,
-        "long": 169.3797,
-        "count": 1.0,
-        "articles": [
-            "How Alexandra Burghardt Made it to Two Olympics in Six Months"
-        ],
-        "urls": [
-            "https://www.nytimes.com/2022/02/19/sports/alexandra-burghardt-winter-games.html"
-        ]
-    },
-    "118": {
-        "city": "China",
-        "country": "Japan",
-        "lat": 27.3336,
-        "long": 128.5736,
+        "lat": 40.6943,
+        "long": -73.9249,
         "count": 20.0,
         "articles": [
-            "Bitcoin less green since China ban, research suggests",
-            "Ukraine invasion: China abstains from voting on UN Security Council resolution condemning Russia - Sky News",
-            "US Navy wants to retrieve crashed F-35 from depths of the South China Sea -- before China does",
-            "Olympics Updates: China Seeks to Burnish Image With Opening Ceremony",
-            "Opinion: Controversy over gold medalist Eileen Gu skiing for China misses the point"
+            "Arizona Starbucks becomes 1st outside New York to unionize",
+            "Retired Florida cop who killed man in movie theater for texting acquitted of murder - New York Post ",
+            "Jussie Smollett files motion to throw out his guilty verdict for staging hate crime - New York Post ",
+            "After a year of challenges, the latest Covid data offer New York doses of optimism.",
+            "Seeking to strengthen pay equity laws in New York - Reuters",
+            "Judge rules Donald Trump must testify in New York investigation",
+            "Trump and his children may be deposed by New York attorney general, judge rules"
         ],
         "urls": [
-            "https://www.bbc.co.uk/news/technology-60521975",
-            "https://news.sky.com/story/ukraine-invasion-china-abstains-from-voting-on-un-security-council-resolution-condemning-russia-12551720",
-            "https://www.cnn.com/2022/01/25/asia/us-f-35-crash-recovery-south-china-sea-intl-hnk-ml/index.html",
-            "https://www.nytimes.com/live/2022/02/03/sports/olympics-winter-beijing",
-            "https://www.cnn.com/2022/02/08/opinions/eileen-gu-gold-medal-for-china-mitchell/index.html"
+            "https://abcnews.go.com/Business/wireStory/arizona-starbucks-1st-york-unionize-83119057",
+            "https://nypost.com/2022/02/26/curtis-reeves-retired-florida-cop-acquitted-of-murdering-chad-oulson-in-theater/",
+            "https://nypost.com/2022/02/26/jussie-smolletts-lawyers-ask-judge-to-throw-out-conviction-due-to-errors-in-trial/",
+            "https://www.nytimes.com/live/2022/02/20/world/covid-19-tests-cases-vaccine",
+            "https://www.reuters.com/legal/legalindustry/seeking-strengthen-pay-equity-laws-new-york-2022-01-27/",
+            "https://www.bbc.co.uk/news/world-us-canada-60425457",
+            "https://www.cnn.com/2022/02/17/politics/trump-subpoena-james-new-york-lawsuit/index.html"
         ]
     },
-    "119": {
-        "city": "Poland",
+    "4": {
+        "city": "Wall",
         "country": "United States",
-        "lat": 44.0463,
-        "long": -70.39,
-        "count": 6.0,
+        "lat": 40.1674,
+        "long": -74.0974,
+        "count": 12.0,
         "articles": [
-            "Ukraine invasion: Poland refuses to play World Cup play-off match against Russia - Sky News",
-            "Locsin travels to Poland for repatriation of Filipinos in Ukraine - Rappler",
-            "Russian Invasion: Only Seven Nigerian Students Out Of Stranded 400 In Ukraine Cross Into Poland - SaharaReporters.com",
-            "Ukraine war vet leaves family in Poland to return to fight Russia - Reuters"
+            "Breakingviews - Citi's Jane Fraser embodies Wall Street's pay gap - Reuters",
+            "Australia shares track Wall Street lower amid Ukraine crisis - Reuters",
+            "LIVE MARKETS Wall Street ends sharply lower as war fears increase - Reuters"
         ],
         "urls": [
-            "https://news.sky.com/story/ukraine-invasion-poland-refuses-to-play-world-cup-play-off-match-against-russia-12551913",
-            "https://www.rappler.com/nation/locsin-travels-to-poland-repatriation-filipinos-in-ukraine/",
-            "http://saharareporters.com/2022/02/25/russian-invasion-only-seven-nigerian-students-out-stranded-400-ukraine-cross-poland",
-            "https://www.reuters.com/world/europe/ukraine-war-vet-leaves-family-poland-return-fight-russia-2022-02-25/"
+            "https://www.reuters.com/breakingviews/citis-jane-fraser-embodies-wall-streets-pay-gap-2022-02-15/",
+            "https://www.reuters.com/markets/stocks/australia-shares-track-wall-street-lower-amid-ukraine-crisis-2022-02-15/",
+            "https://www.reuters.com/markets/asia/live-markets-wall-street-ends-sharply-lower-war-fears-increase-2022-02-17/"
         ]
     },
-    "120": {
-        "city": "Rothschild",
+    "5": {
+        "city": "Washington",
         "country": "United States",
-        "lat": 44.8761,
-        "long": -89.6173,
-        "count": 2.0,
+        "lat": 38.9047,
+        "long": -77.0163,
+        "count": 9.0,
         "articles": [
-            "Nicky Hilton, James Rothschild expecting their third child - Geo News"
+            "Ukrainians Google 'how to make a molotov cocktail' after defense minister's call to arms - The Washington Post",
+            "Germany\u2019s \u2018Invisible\u2019 Chancellor Heads to Washington Amid Fierce Criticism"
         ],
         "urls": [
-            "https://www.geo.tv/latest/395304-nicky-hilton-james-rothschild-expecting-their-third-child"
+            "https://www.washingtonpost.com/world/2022/02/25/ukraine-google-molotov-cocktails-resistance-russia/",
+            "https://www.nytimes.com/2022/02/06/world/europe/olaf-scholz-biden-ukraine-russia.html"
         ]
     },
-    "121": {
+    "6": {
+        "city": "Jones",
+        "country": "Philippines",
+        "lat": 16.5583,
+        "long": 121.7,
+        "count": 8.0,
+        "articles": [
+            "NBC Says Leslie Jones Can Keep Offering Olympics Commentary",
+            "White House Chooses Doug Jones to Guide Supreme Court Nominee",
+            "Former Sen. Doug Jones will guide Biden's Supreme Court nominee through confirmation: report",
+            "Dr. Oz turns to law firm Jones Day for consulting in U.S. Senate bid - Reuters"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/07/sports/olympics/leslie-jones-olympics-nbc.html",
+            "https://www.nytimes.com/2022/02/01/us/politics/doug-jones-supreme-court.html",
+            "https://www.businessinsider.com/doug-jones-sherpa-biden-supreme-court-nominee-senate-confirmation-hearings-2022-2",
+            "https://www.reuters.com/legal/litigation/dr-oz-turns-law-firm-jones-day-consulting-us-senate-bid-2022-02-01/"
+        ]
+    },
+    "7": {
+        "city": "Powell",
+        "country": "United States",
+        "lat": 40.1684,
+        "long": -83.0826,
+        "count": 8.0,
+        "articles": [
+            "Senate Republican leader McConnell to meet with Fed's Powell on inflation - Reuters",
+            "U.S. Senate panel to vote on Fed's Powell on Feb. 15 -Punchbowl News - Reuters",
+            "Fed Chair Powell to become 'pro tempore' as he awaits Senate action - Reuters"
+        ],
+        "urls": [
+            "https://www.reuters.com/world/us/senate-republican-leader-mcconnell-meet-with-feds-powell-inflation-2022-02-15/",
+            "https://www.reuters.com/article/usa-fed-nominees-idUSW1N2SV04I",
+            "https://www.reuters.com/business/fed-chair-powell-become-pro-tempore-he-awaits-senate-action-2022-02-04/"
+        ]
+    },
+    "8": {
         "city": "Post",
         "country": "United States",
         "lat": 33.1911,
@@ -1843,6 +198,919 @@
             "https://dailypost.ng/2022/02/26/nigerian-newspapers-10-things-you-need-to-know-this-saturday-morning-155/",
             "https://dailypost.ng/2022/02/26/epl-michael-owen-predicts-man-utd-vs-watford-everton-vs-man-city-leeds-vs-tottenham-others/",
             "https://nypost.com/2022/02/26/jussie-smolletts-lawyers-ask-judge-to-throw-out-conviction-due-to-errors-in-trial/"
+        ]
+    },
+    "9": {
+        "city": "Manchester",
+        "country": "United Kingdom",
+        "lat": 53.4794,
+        "long": -2.2453,
+        "count": 7.0,
+        "articles": [
+            "Ukraine conflict: Manchester City Oleksandr Zinchenko joins vigil in Manchester city centre",
+            "Ralf Rangnick hints out-of-form Manchester United man Rashford is facing the axe - TEAMtalk"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/football/60520646",
+            "https://www.teamtalk.com/manchester-united/marcus-rashford-given-warning-by-ralf-rangnick-over-form"
+        ]
+    },
+    "10": {
+        "city": "Police",
+        "country": "Poland",
+        "lat": 53.55,
+        "long": 14.5708,
+        "count": 6.0,
+        "articles": [
+            "Bank Robbery: Police confirm recovery of N37 million, five abandoned vehicles - Premium Times",
+            "Live: Police with riot gear rush to Parliament protest, have set up road block - New Zealand Herald",
+            "Stealth Traffic Police officers were so polite that motorcyclist isn't upset being booked - AsiaOne",
+            "COVID-19: Police Association wants unvaccinated cops back on the job after court ruling on mandates - Newshub"
+        ],
+        "urls": [
+            "https://www.premiumtimesng.com/news/top-news/513956-bank-robbery-police-confirm-recovery-of-n37-million-five-abandoned-vehicles.html",
+            "https://www.nzherald.co.nz/nz/covid-19-omicron-outbreak-live-police-with-riot-gear-rush-to-parliament-protest-have-set-up-road-block/V5KNM7WFFL4FFSHXASCOCWZ55U/",
+            "https://www.asiaone.com/singapore/stealth-traffic-police-officers-were-so-polite-motorcyclist-isnt-upset-being-booked",
+            "https://www.newshub.co.nz/home/politics/2022/02/covid-19-police-association-wants-unvaccinated-cops-back-on-the-job-after-court-ruling-on-mandates.html"
+        ]
+    },
+    "11": {
+        "city": "Melitopol",
+        "country": "Ukraine",
+        "lat": 46.8333,
+        "long": 35.3667,
+        "count": 5.0,
+        "articles": [
+            "Russia says it has captured Ukraine's Melitopol - The Star Online",
+            "Russian forces capture Ukrainian city of Melitopol amid missile strikes - CTV News"
+        ],
+        "urls": [
+            "https://www.thestar.com.my/news/world/2022/02/26/russia-says-it-has-captured-ukraine039s-melitopol",
+            "https://www.ctvnews.ca/world/russian-forces-capture-ukrainian-city-of-melitopol-amid-missile-strikes-1.5797299"
+        ]
+    },
+    "12": {
+        "city": "Norwich",
+        "country": "United Kingdom",
+        "lat": 52.63,
+        "long": 1.297,
+        "count": 5.0,
+        "articles": [
+            "Southampton 2-0 Norwich City: Southampton 'absolutely deserved' win - Ralph Hasenhuttl",
+            "Southampton 2-0 Norwich City: Canaries 'not good enough' in first half - Dean Smith",
+            "Southampton 2-0 Norwich City: Saints edge closer to European places with win over bottom club"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/av/football/60533216",
+            "https://www.bbc.co.uk/sport/av/football/60533219",
+            "https://www.bbc.co.uk/sport/football/60426244"
+        ]
+    },
+    "13": {
+        "city": "Liverpool",
+        "country": "United Kingdom",
+        "lat": 53.4,
+        "long": -2.9833,
+        "count": 4.0,
+        "articles": [
+            "Police issue update after loud bang 'shakes homes' across Merseyside - Liverpool Echo",
+            "James starts, Lukaku benched: The Chelsea starting XI Thomas Tuchel must consider for Liverpool - football.london - Football.London"
+        ],
+        "urls": [
+            "https://www.liverpoolecho.co.uk/news/liverpool-news/police-issue-update-after-loud-23225492",
+            "https://www.football.london/chelsea-fc/news/chelsea-liverpool-tuchel-reece-james-23221757"
+        ]
+    },
+    "14": {
+        "city": "Time",
+        "country": "Norway",
+        "lat": 58.7228,
+        "long": 5.7653,
+        "count": 4.0,
+        "articles": [
+            "Politicians Say It\u2019s Time to Live With Covid. Are You Ready?",
+            "Some U.S. Governors Say It\u2019s Time for an Endemic Approach to Covid",
+            "How Much Watching Time Do You Have This Weekend?",
+            "A \u2018Master Class\u2019 in Gerrymandering, This Time Led by N.Y. Democrats"
+        ],
+        "urls": [
+            "https://www.wired.com/story/living-with-covid-new-normal/",
+            "https://www.nytimes.com/live/2022/01/31/world/omicron-covid-vaccine-tests",
+            "https://www.nytimes.com/2022/02/10/arts/television/bel-air-whitney-houston-national-anthem.html",
+            "https://www.nytimes.com/2022/02/02/nyregion/redistricting-gerrymandering-ny.html"
+        ]
+    },
+    "15": {
+        "city": "Heathrow",
+        "country": "United States",
+        "lat": 28.7753,
+        "long": -81.3721,
+        "count": 3.0,
+        "articles": [
+            "BA cancels short-haul Heathrow flights amid technical woes",
+            "British Airways cancels all short-haul flights from Heathrow until midday due to ongoing 'technical issues' - Sky News"
+        ],
+        "urls": [
+            "https://abcnews.go.com/International/wireStory/ba-cancels-short-haul-heathrow-flights-amid-technical-83125301",
+            "https://news.sky.com/story/british-airways-cancels-all-short-haul-flights-from-heathrow-until-midday-due-to-ongoing-technical-issues-12551874"
+        ]
+    },
+    "16": {
+        "city": "Battle",
+        "country": "United Kingdom",
+        "lat": 50.92,
+        "long": 0.48,
+        "count": 3.0,
+        "articles": [
+            "Scotland's papers: Battle to save Kyiv as the world watches on",
+            "The Papers: Battle for Kyiv as 'Russian forces descend'",
+            "Billionaires and Big Checks Shape Battle for Congress"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/uk-scotland-60533044",
+            "https://www.bbc.co.uk/news/blogs-the-papers-60533145",
+            "https://www.nytimes.com/2022/02/01/us/politics/midterms-campaign-financing.html"
+        ]
+    },
+    "17": {
+        "city": "Las Vegas",
+        "country": "United States",
+        "lat": 36.2333,
+        "long": -115.2654,
+        "count": 3.0,
+        "articles": [
+            "Saul 'Canelo' Alvarez to face Dmitry Bivol in Las Vegas on 7 May",
+            "Traveling to Las Vegas during Covid-19: What you need to know before you go"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/boxing/60536012",
+            "https://www.cnn.com/travel/article/las-vegas-travel-covid-19-need-to-know/index.html"
+        ]
+    },
+    "18": {
+        "city": "Petersburg",
+        "country": "United States",
+        "lat": 37.2043,
+        "long": -77.3913,
+        "count": 3.0,
+        "articles": [
+            "Paris replaces St. Petersburg as Champions League final host"
+        ],
+        "urls": [
+            "https://abcnews.go.com/Sports/wireStory/ap-source-paris-replaces-russia-champions-league-final-83103950"
+        ]
+    },
+    "19": {
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "lat": 25.2697,
+        "long": 55.3094,
+        "count": 3.0,
+        "articles": [
+            "Asteroid 'Taller Than Dubai Skyscraper, Wider than The Vatican' to Skim Past Earth - Sputnik International",
+            "Canada's Shapovalov upset in Dubai semis; Russia's Rublev makes anti-war plea - CBC.ca"
+        ],
+        "urls": [
+            "https://sputniknews.com/20220226/asteroid-taller-than-dubai-skyscraper-wider-than-the-vatican-to-skim-past-earth-1093387124.html",
+            "https://www.cbc.ca/sports/tennis/roundup-dubai-feb-25-1.6364757"
+        ]
+    },
+    "20": {
+        "city": "Cornwall",
+        "country": "Canada",
+        "lat": 45.0275,
+        "long": -74.74,
+        "count": 2.0,
+        "articles": [
+            "Camilla, Duchess of Cornwall tests positive for Covid-19"
+        ],
+        "urls": [
+            "https://www.cnn.com/2022/02/14/europe/camilla-covid-intl-scli/index.html"
+        ]
+    },
+    "21": {
+        "city": "Rothschild",
+        "country": "United States",
+        "lat": 44.8761,
+        "long": -89.6173,
+        "count": 2.0,
+        "articles": [
+            "Nicky Hilton, James Rothschild expecting their third child - Geo News"
+        ],
+        "urls": [
+            "https://www.geo.tv/latest/395304-nicky-hilton-james-rothschild-expecting-their-third-child"
+        ]
+    },
+    "22": {
+        "city": "Kant",
+        "country": "Kyrgyzstan",
+        "lat": 42.8833,
+        "long": 74.85,
+        "count": 2.0,
+        "articles": [
+            "Peter von Kant review \u2013 gender-flipped Fassbinder does away with the bitter tears"
+        ],
+        "urls": [
+            "https://amp.theguardian.com/film/2022/feb/11/peter-von-kant-review-francois-ozon-fassbinder-berlin-film-festival"
+        ]
+    },
+    "23": {
+        "city": "Clinton",
+        "country": "United States",
+        "lat": 38.7499,
+        "long": -76.9063,
+        "count": 2.0,
+        "articles": [
+            "Republicans Who Railed About Clinton Emails Are Quiet on Trump\u2019s Records"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/10/us/politics/trump-national-archives-documents-republicans.html"
+        ]
+    },
+    "24": {
+        "city": "Broadway",
+        "country": "United States",
+        "lat": 38.6083,
+        "long": -78.8016,
+        "count": 2.0,
+        "articles": [
+            "A Broadway Conductor's Difficult Journey Back from Long Covid"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/24/nyregion/joel-fram-broadway-covid.html"
+        ]
+    },
+    "25": {
+        "city": "Northampton",
+        "country": "United States",
+        "lat": 40.2104,
+        "long": -75.0014,
+        "count": 2.0,
+        "articles": [
+            "Six Nations 2022: Northampton team-mates Courtney Lawes & Dan Biggar face off"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/rugby-union/60528958"
+        ]
+    },
+    "26": {
+        "city": "Russell",
+        "country": "Canada",
+        "lat": 45.2569,
+        "long": -75.3583,
+        "count": 2.0,
+        "articles": [
+            "Hamilton quickest in testing - but Russell says 'don't read too much into times'"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/formula1/60521858"
+        ]
+    },
+    "27": {
+        "city": "Golden",
+        "country": "United States",
+        "lat": 39.7406,
+        "long": -105.2118,
+        "count": 2.0,
+        "articles": [
+            "Women dominate Berlin film festival as Alcarr\u00e0s wins Golden Bear"
+        ],
+        "urls": [
+            "https://amp.theguardian.com/film/2022/feb/17/women-dominate-berlin-film-festival-as-alcarras-wins-golden-bear"
+        ]
+    },
+    "28": {
+        "city": "Clarkson",
+        "country": "United States",
+        "lat": 43.2533,
+        "long": -77.9228,
+        "count": 2.0,
+        "articles": [
+            "Jeremy Clarkson receives backlash after foul-mouthed Nikita Mazepin outburst - The Mirror"
+        ],
+        "urls": [
+            "https://www.mirror.co.uk/sport/formula-1/jeremy-clarkson-nikita-mazepin-russia-26333910"
+        ]
+    },
+    "29": {
+        "city": "Mitchell",
+        "country": "United States",
+        "lat": 43.7296,
+        "long": -98.0337,
+        "count": 2.0,
+        "articles": [
+            "Joni Mitchell wants songs removed from Spotify"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/world-60177933"
+        ]
+    },
+    "30": {
+        "city": "Dunn",
+        "country": "United States",
+        "lat": 35.3113,
+        "long": -78.6129,
+        "count": 2.0,
+        "articles": [
+            "Sanction threat looms for Facebook and Gibson Dunn in privacy class action - Reuters"
+        ],
+        "urls": [
+            "https://www.reuters.com/legal/litigation/sanction-threat-looms-facebook-gibson-dunn-privacy-class-action-2022-02-14/"
+        ]
+    },
+    "31": {
+        "city": "Moore",
+        "country": "United States",
+        "lat": 35.3293,
+        "long": -97.4758,
+        "count": 2.0,
+        "articles": [
+            "No defamation in assault case involving former Alabama senate candidate Roy Moore - Reuters"
+        ],
+        "urls": [
+            "https://www.reuters.com/world/us/no-defamation-assault-case-involving-former-alabama-senate-candidate-roy-moore-2022-02-02/"
+        ]
+    },
+    "32": {
+        "city": "Adams",
+        "country": "United States",
+        "lat": 40.7092,
+        "long": -80.012,
+        "count": 2.0,
+        "articles": [
+            "How Eric Adams Mixes Tough Talk With Superfood Smoothies"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/14/us/politics/eric-adams-wellness-vegan.html"
+        ]
+    },
+    "33": {
+        "city": "Globe",
+        "country": "United States",
+        "lat": 33.3869,
+        "long": -110.7515,
+        "count": 2.0,
+        "articles": [
+            "From gasoline to beer: How war in Ukraine could affect inflation - The Globe and Mail",
+            "Russian troops enter Kyiv as residents urged to fight - The Globe and Mail"
+        ],
+        "urls": [
+            "https://www.theglobeandmail.com/investing/personal-finance/household-finances/article-from-gasoline-to-beer-how-war-in-ukraine-could-affect-inflation/",
+            "https://www.theglobeandmail.com/world/article-russian-troops-push-in-to-kyiv-as-war-wages-throughout-ukraine/"
+        ]
+    },
+    "34": {
+        "city": "Carroll",
+        "country": "United States",
+        "lat": 42.0699,
+        "long": -94.8647,
+        "count": 2.0,
+        "articles": [
+            "E. Jean Carroll no longer seeks Trump's deposition in defamation lawsuit"
+        ],
+        "urls": [
+            "https://www.cnn.com/2022/02/22/politics/e-jean-carroll-trump/index.html"
+        ]
+    },
+    "35": {
+        "city": "Much",
+        "country": "Germany",
+        "lat": 50.9167,
+        "long": 7.4,
+        "count": 2.0,
+        "articles": [
+            "Hospitals Complain Nurses Making Too Much Money During Covid-19 Pandemic",
+            "How Much Watching Time Do You Have This Weekend?"
+        ],
+        "urls": [
+            "https://gizmodo.com/hospitals-complain-nurses-making-too-much-money-during-1848505160",
+            "https://www.nytimes.com/2022/02/10/arts/television/bel-air-whitney-houston-national-anthem.html"
+        ]
+    },
+    "36": {
+        "city": "Manila",
+        "country": "Philippines",
+        "lat": 14.6,
+        "long": 120.9833,
+        "count": 2.0,
+        "articles": [
+            "PH among 'biggest losers' in Ukraine war - The Manila Times",
+            "Kakampinks on a high: #IloiloIsPink still trends nationwide; 40,000 attend Robredo\u2019s Iloilo rally - Manila Bulletin"
+        ],
+        "urls": [
+            "https://www.manilatimes.net/2022/02/26/news/national/ph-among-biggest-losers-in-ukraine-war/1834357",
+            "https://mb.com.ph/2022/02/26/kakampinks-on-a-high-iloiloispink-still-trends-nationwide-40000-attend-robredos-iloilo-rally/"
+        ]
+    },
+    "37": {
+        "city": "Ottawa",
+        "country": "Canada",
+        "lat": 45.4247,
+        "long": -75.695,
+        "count": 2.0,
+        "articles": [
+            "Freedom Convoy: Ottawa declares emergency over trucker Covid rules protests"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/world-us-canada-60281088"
+        ]
+    },
+    "38": {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "lat": 22.305,
+        "long": 114.185,
+        "count": 2.0,
+        "articles": [
+            "As 'stealth omicron' advances, scientists are learning more - Hong Kong Standard",
+            "Lower sperm count and testosterone levels due to Covid-19? Here\u2019s what Hong Kong researchers claim - News Azi"
+        ],
+        "urls": [
+            "https://www.thestandard.com.hk/breaking-news/section/6/187543/As-%E2%80%98stealth-omicron%E2%80%99-advances,-scientists-are-learning-more%C2%A0",
+            "https://newsazi.com/lower-sperm-count-and-testosterone-levels-due-to-covid-19-heres-what-hong-kong-researchers-claim/"
+        ]
+    },
+    "39": {
+        "city": "West Ham",
+        "country": "United Kingdom",
+        "lat": 51.5347,
+        "long": 0.0077,
+        "count": 2.0,
+        "articles": [
+            "Europa League draw: West Ham get Sevilla and Rangers face Red Star Belgrade"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/football/60523333"
+        ]
+    },
+    "40": {
+        "city": "Kabul",
+        "country": "Afghanistan",
+        "lat": 34.5328,
+        "long": 69.1658,
+        "count": 2.0,
+        "articles": [
+            "Afghan students return to Kabul U, but with restrictions"
+        ],
+        "urls": [
+            "https://abcnews.go.com/International/wireStory/afghan-students-return-kabul-restrictions-83125435"
+        ]
+    },
+    "41": {
+        "city": "Berlin",
+        "country": "Germany",
+        "lat": 52.5167,
+        "long": 13.3833,
+        "count": 2.0,
+        "articles": [
+            "Women dominate Berlin film festival as Alcarr\u00e0s wins Golden Bear"
+        ],
+        "urls": [
+            "https://amp.theguardian.com/film/2022/feb/17/women-dominate-berlin-film-festival-as-alcarras-wins-golden-bear"
+        ]
+    },
+    "42": {
+        "city": "Birmingham",
+        "country": "United Kingdom",
+        "lat": 52.48,
+        "long": -1.9025,
+        "count": 2.0,
+        "articles": [
+            "Peaky Blinders: Birmingham City revert to Small Heath Alliance"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/uk-england-birmingham-60523752"
+        ]
+    },
+    "43": {
+        "city": "Southampton",
+        "country": "United Kingdom",
+        "lat": 50.9,
+        "long": -1.4,
+        "count": 2.0,
+        "articles": [
+            "Southampton 2-0 Norwich City: Southampton 'absolutely deserved' win - Ralph Hasenhuttl",
+            "Marieanne Spacey-Cale: Southampton manager reflects on 'magic' of FA Cup"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/av/football/60533216",
+            "https://www.bbc.co.uk/sport/football/60529387"
+        ]
+    },
+    "44": {
+        "city": "Ilagan",
+        "country": "Philippines",
+        "lat": 17.1333,
+        "long": 121.8833,
+        "count": 2.0,
+        "articles": [
+            "PBA: Diminutive Ilagan shows biggest heart, nails winner to lift Alaska past Meralco - Tiebreaker Times"
+        ],
+        "urls": [
+            "https://tiebreakertimes.com.ph/tbt/pba-diminutive-ilagan-shows-biggest-heart-nails-winner-to-lift-alaska-past-meralco/232802"
+        ]
+    },
+    "45": {
+        "city": "Auckland",
+        "country": "New Zealand",
+        "lat": -36.85,
+        "long": 174.7833,
+        "count": 2.0,
+        "articles": [
+            "Protesters at Auckland Domain defy police - RNZ"
+        ],
+        "urls": [
+            "https://www.rnz.co.nz/news/national/462359/protesters-at-auckland-domain-defy-police"
+        ]
+    },
+    "46": {
+        "city": "Leeds",
+        "country": "United Kingdom",
+        "lat": 53.7997,
+        "long": -1.5492,
+        "count": 2.0,
+        "articles": [
+            "EPL: Michael Owen predicts Man Utd vs Watford, Everton vs Man City, Leeds vs Tottenham, others - Daily Post Nigeria"
+        ],
+        "urls": [
+            "https://dailypost.ng/2022/02/26/epl-michael-owen-predicts-man-utd-vs-watford-everton-vs-man-city-leeds-vs-tottenham-others/"
+        ]
+    },
+    "47": {
+        "city": "Munich",
+        "country": "Germany",
+        "lat": 48.1372,
+        "long": 11.5755,
+        "count": 2.0,
+        "articles": [
+            "Ukraine crisis takes centre stage at Munich Security Conference - Reuters"
+        ],
+        "urls": [
+            "https://www.reuters.com/world/europe/ukraine-crisis-takes-centre-stage-munich-security-conference-2022-02-18/"
+        ]
+    },
+    "48": {
+        "city": "Newcastle",
+        "country": "United Kingdom",
+        "lat": 55.0077,
+        "long": -1.6578,
+        "count": 2.0,
+        "articles": [
+            "Football Focus: Newcastle fans are 'the extra man' - Eddie Howe"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/av/football/60525319"
+        ]
+    },
+    "49": {
+        "city": "Cheney",
+        "country": "United States",
+        "lat": 47.4901,
+        "long": -117.579,
+        "count": 1.0,
+        "articles": [
+            "Romney, other Trump critics to raise money for Liz Cheney re-election effort - Reuters"
+        ],
+        "urls": [
+            "https://www.reuters.com/world/us/romney-other-trump-critics-raise-money-liz-cheney-re-election-effort-2022-01-26/"
+        ]
+    },
+    "50": {
+        "city": "Wake",
+        "country": "Japan",
+        "lat": 34.8028,
+        "long": 134.1575,
+        "count": 1.0,
+        "articles": [
+            "Business Updates: Global Markets Are Calm in Wake of Russia Sanctions"
+        ],
+        "urls": [
+            "https://www.nytimes.com/live/2022/02/23/business/stock-market-economy-news"
+        ]
+    },
+    "51": {
+        "city": "Fully",
+        "country": "Switzerland",
+        "lat": 46.1333,
+        "long": 7.1167,
+        "count": 1.0,
+        "articles": [
+            "Dining Is Fully Immersive in Star Wars: Galactic Starcruiser"
+        ],
+        "urls": [
+            "https://disneyparks.disney.go.com/blog/2022/02/dining-is-fully-immersive-in-star-wars-galactic-starcruiser/"
+        ]
+    },
+    "52": {
+        "city": "Heath",
+        "country": "United States",
+        "lat": 40.0241,
+        "long": -82.4412,
+        "count": 1.0,
+        "articles": [
+            "Peaky Blinders: Birmingham City revert to Small Heath Alliance"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/uk-england-birmingham-60523752"
+        ]
+    },
+    "53": {
+        "city": "Worth",
+        "country": "United States",
+        "lat": 41.6877,
+        "long": -87.7916,
+        "count": 1.0,
+        "articles": [
+            "Short-Track Speedskating: How It Works and Who\u2019s Worth Watching"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/07/sports/olympics/speedskating-short-track.html"
+        ]
+    },
+    "54": {
+        "city": "Sweden",
+        "country": "United States",
+        "lat": 43.1791,
+        "long": -77.9406,
+        "count": 1.0,
+        "articles": [
+            "Russia warns of 'military consequences' if Finland and Sweden join Nato - Telegraph.co.uk"
+        ],
+        "urls": [
+            "https://www.telegraph.co.uk/world-news/2022/02/25/russia-threatens-finland-sweden-joining-nato-ukraine-invasion/"
+        ]
+    },
+    "55": {
+        "city": "Grabs",
+        "country": "Switzerland",
+        "lat": 47.1831,
+        "long": 9.45,
+        "count": 1.0,
+        "articles": [
+            "5 Gold Medals Are Up for Grabs on the Last Day of the Games"
+        ],
+        "urls": [
+            "https://www.nytimes.com/live/2022/02/19/sports/olympics-medals-winter"
+        ]
+    },
+    "56": {
+        "city": "Brisbane",
+        "country": "Australia",
+        "lat": -27.4678,
+        "long": 153.0281,
+        "count": 1.0,
+        "articles": [
+            "Omid and his brothers just lost $400K to the swollen Oxley Creek - Brisbane Times"
+        ],
+        "urls": [
+            "https://www.brisbanetimes.com.au/national/queensland/omid-and-his-brothers-just-lost-400k-to-the-swollen-oxley-creek-20220226-p59zyi.html"
+        ]
+    },
+    "57": {
+        "city": "Sevilla",
+        "country": "Spain",
+        "lat": 37.39,
+        "long": -5.99,
+        "count": 1.0,
+        "articles": [
+            "Europa League draw: West Ham get Sevilla and Rangers face Red Star Belgrade"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/sport/football/60523333"
+        ]
+    },
+    "58": {
+        "city": "Parker",
+        "country": "United States",
+        "lat": 39.5084,
+        "long": -104.7753,
+        "count": 1.0,
+        "articles": [
+            "That\u2019s hottttt! Parker Solar Probe touches the sun again, feels the heat at 760 degrees Celsius - India Today"
+        ],
+        "urls": [
+            "https://www.indiatoday.in/science/story/parker-solar-probe-sun-heat-nasa-1918131-2022-02-26"
+        ]
+    },
+    "59": {
+        "city": "Fraser",
+        "country": "United States",
+        "lat": 42.5388,
+        "long": -82.9496,
+        "count": 1.0,
+        "articles": [
+            "Breakingviews - Citi's Jane Fraser embodies Wall Street's pay gap - Reuters"
+        ],
+        "urls": [
+            "https://www.reuters.com/breakingviews/citis-jane-fraser-embodies-wall-streets-pay-gap-2022-02-15/"
+        ]
+    },
+    "60": {
+        "city": "Unity",
+        "country": "United States",
+        "lat": 40.2811,
+        "long": -79.4236,
+        "count": 1.0,
+        "articles": [
+            "Once a Foreign Policy Partner, Congress Struggles for Unity on Ukraine"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/22/us/politics/congress-ukraine-russia.html"
+        ]
+    },
+    "61": {
+        "city": "Penarth",
+        "country": "United Kingdom",
+        "lat": 51.43,
+        "long": -3.17,
+        "count": 1.0,
+        "articles": [
+            "Covid: Welsh Government announce new vaccine strategy - Penarth Times"
+        ],
+        "urls": [
+            "https://www.penarthtimes.co.uk/news/19950376.covid-welsh-government-announce-new-vaccine-strategy/"
+        ]
+    },
+    "62": {
+        "city": "Small Heath",
+        "country": "United Kingdom",
+        "lat": 52.4629,
+        "long": -1.8542,
+        "count": 1.0,
+        "articles": [
+            "Peaky Blinders: Birmingham City revert to Small Heath Alliance"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/uk-england-birmingham-60523752"
+        ]
+    },
+    "63": {
+        "city": "Sutton",
+        "country": "United Kingdom",
+        "lat": 51.3656,
+        "long": -0.1963,
+        "count": 1.0,
+        "articles": [
+            "How Hugh Jackman, Sutton Foster and \u2018The Music Man\u2019 Withstood Covid"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/02/theater/music-man-broadway-hugh-jackman.html"
+        ]
+    },
+    "64": {
+        "city": "Puerto Rico",
+        "country": "Colombia",
+        "lat": 1.9075,
+        "long": -75.1583,
+        "count": 1.0,
+        "articles": [
+            "Hawaii and Puerto Rico Will Soon Be Mask Mandate Outliers"
+        ],
+        "urls": [
+            "https://www.nytimes.com/live/2022/02/22/world/covid-19-tests-cases-vaccine"
+        ]
+    },
+    "65": {
+        "city": "Waterford",
+        "country": "Ireland",
+        "lat": 52.2583,
+        "long": -7.119,
+        "count": 1.0,
+        "articles": [
+            "EXPLAINER: Did the use of hand sanitiser during Covid-19 pandemic damage the environment? - Waterford Live"
+        ],
+        "urls": [
+            "https://www.waterfordlive.ie/news/national-news/752995/explainer-did-the-use-of-hand-sanitiser-during-covid-19-pandemic-damage-the-environment.html"
+        ]
+    },
+    "66": {
+        "city": "Rio Tinto",
+        "country": "Portugal",
+        "lat": 41.1833,
+        "long": -8.5667,
+        "count": 1.0,
+        "articles": [
+            "Investors urge miners to change ways after damning Rio Tinto workplace report - Reuters"
+        ],
+        "urls": [
+            "https://www.reuters.com/business/investors-urge-miners-change-ways-after-damning-rio-tinto-workplace-report-2022-02-02/"
+        ]
+    },
+    "67": {
+        "city": "Split",
+        "country": "Croatia",
+        "lat": 43.51,
+        "long": 16.45,
+        "count": 1.0,
+        "articles": [
+            "Republican Candidates Split Over Ukraine-Russia Crisis"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/22/us/politics/republican-candidates-split-over-ukraine-russia-crisis.html"
+        ]
+    },
+    "68": {
+        "city": "Luj\u00e1n",
+        "country": "Argentina",
+        "lat": -34.5703,
+        "long": -59.105,
+        "count": 1.0,
+        "articles": [
+            "Senator Ben Ray Luj\u00e1n Recovering After Suffering Stroke"
+        ],
+        "urls": [
+            "https://www.nytimes.com/2022/02/01/us/politics/ben-ray-lujan-stroke.html"
+        ]
+    },
+    "69": {
+        "city": "Norfolk",
+        "country": "United States",
+        "lat": 36.8945,
+        "long": -76.259,
+        "count": 1.0,
+        "articles": [
+            "Pig industry facing 'biggest crisis' for 25 years, says Norfolk farmer"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/uk-england-norfolk-60516864"
+        ]
+    },
+    "70": {
+        "city": "Wuppertal",
+        "country": "Germany",
+        "lat": 51.2667,
+        "long": 7.1833,
+        "count": 1.0,
+        "articles": [
+            "Tanztheater Wuppertal Pina Bausch: Kontakthof review \u2013 the miseries of mating"
+        ],
+        "urls": [
+            "https://amp.theguardian.com/stage/2022/feb/04/tanztheater-wuppertal-pina-bausch-kontakthof-review-sadlers-wells-london"
+        ]
+    },
+    "71": {
+        "city": "Aberystwyth",
+        "country": "United Kingdom",
+        "lat": 52.414,
+        "long": -4.081,
+        "count": 1.0,
+        "articles": [
+            "Malaria: Aberystwyth University drone system used in Zanzibar"
+        ],
+        "urls": [
+            "https://www.bbc.co.uk/news/uk-wales-60509702"
+        ]
+    },
+    "72": {
+        "city": "Sochi",
+        "country": "Russia",
+        "lat": 43.5853,
+        "long": 39.7203,
+        "count": 1.0,
+        "articles": [
+            "Russia loses Champions League final to Paris; Sochi F1 axed - Sportsnet.ca"
+        ],
+        "urls": [
+            "https://www.sportsnet.ca/soccer/article/russia-loses-champions-league-final-to-paris-sochi-f1-axed/"
+        ]
+    },
+    "73": {
+        "city": "Iloilo",
+        "country": "Philippines",
+        "lat": 10.7167,
+        "long": 122.5667,
+        "count": 1.0,
+        "articles": [
+            "Kakampinks on a high: #IloiloIsPink still trends nationwide; 40,000 attend Robredo\u2019s Iloilo rally - Manila Bulletin"
+        ],
+        "urls": [
+            "https://mb.com.ph/2022/02/26/kakampinks-on-a-high-iloiloispink-still-trends-nationwide-40000-attend-robredos-iloilo-rally/"
+        ]
+    },
+    "74": {
+        "city": "Fate",
+        "country": "United States",
+        "lat": 32.9429,
+        "long": -96.3858,
+        "count": 1.0,
+        "articles": [
+            "Olympics Updates: Valieva Awaits Her Olympic Fate Following Hearing"
+        ],
+        "urls": [
+            "https://www.nytimes.com/live/2022/02/13/sports/olympics-medals-winter"
+        ]
+    },
+    "75": {
+        "city": "Malay",
+        "country": "Philippines",
+        "lat": 11.9,
+        "long": 121.9167,
+        "count": 1.0,
+        "articles": [
+            "Report: Malaysian diplomats in Kyiv escaping by road, some 782km after evacuation bungle - Malay Mail"
+        ],
+        "urls": [
+            "https://www.malaymail.com/news/malaysia/2022/02/26/report-malaysian-diplomats-in-kyiv-escaping-by-road-some-782km-after-evacua/2044094"
         ]
     }
 }
