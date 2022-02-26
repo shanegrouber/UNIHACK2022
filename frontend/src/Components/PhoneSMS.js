@@ -55,10 +55,12 @@ class PhoneSMS extends Component{
   render(){
     const { text } = this.state;
     return(
-    <div className=' shadow-lg w-96 h-96'>
-      <div className='absolute'>
-      <h1 className=''>Get Alerted With News Near You!</h1>
-      
+    <div className=' shadow-lg w-96 h-96 '>
+      <div className='absolute  pt-28 pl-16 '>
+        <div className='shadow-md'>
+      <h1 className='font-bold'>Get Alerted</h1>
+      <h1 className='pl-24 font-bold tracking-wider underline'> Near You!</h1>
+      </div>
       </div>
       <div className='mt-64 '>
         <div className='grid grid-col-2'>
