@@ -25,7 +25,7 @@ mongoose.connect(`mongodb+srv://${process.env.MONGO_DOMAIN}@cluster0.vlfea.mongo
 });
 
 app.get('/data', newsArticles.getAll);
-
+app.get('/delete', newsArticles.deleteDuplicates);
 
 function getNewArticles(oldDB, newDB) {
     let oldTitles = oldDB.map(x => x.title);
@@ -41,10 +41,13 @@ function getNewArticles(oldDB, newDB) {
 
 function fetchArticles() {
     d = new Date();
-    newsapi.v2.topHeadlines({
+    newsapi.v2.everything({
         language: 'en',
-        from: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-1}`,
-        sources: 'abc-news,bbc-news'
+        // from: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-13}`,
+        // to: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-10}`,
+        // sources: 'abc-news,bbc-news',
+        q: 'war',
+        pageSize: 100
     }).then(response => {
 
         let fetchedArticles = response.articles;
@@ -71,6 +74,7 @@ function fetchArticles() {
     });
 }
 database = [];
+// fetchArticles();
 // setInterval(function() {
 //     fetchArticles();
 // }, 1000 * 60 * 60);
