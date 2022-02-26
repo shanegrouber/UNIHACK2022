@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Circle, CircleMarker, MapContainer, Polyline, Polygon, Popup, Rectangle, TileLayer,} from 'react-leaflet';
 import './Map.css';
 import data from './sampledata.json';
+import NewsList from "./NewsList";
 
 
 
@@ -31,8 +32,8 @@ const Map = ({childToParent}) => {
         />
 
         {Object.keys(circles).map((key, i ) => (
-          <Circle key={i} center={[circles[key].lat, circles[key].long]} pathOptions={fillRedOptions} radius={circles[key].count * 100000}>
-            <Popup>Popup in Circle</Popup>
+          <Circle key={i} center={[circles[key].lat, circles[key].long]} pathOptions={fillRedOptions} radius={circles[key].count * 10000}>
+            <Popup><NewsList></NewsList></Popup>
             {childToParent(coords)}
           </Circle>
         ))}
