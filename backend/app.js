@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const NewsAPI = require('newsapi');
+const path = require('path');
 
 const newsapi = new NewsAPI('9d8ac27362174fb1ae77114dc8ed8f97');
 const newsArticles = require('./routers/newsArticle');
@@ -12,6 +13,7 @@ app.listen(process.env.PORT || 3000, function() {
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, '../frontend/build')))
 
 mongoose.connect('mongodb://localhost:27017/unihack', function(err) {
     if (err) {
