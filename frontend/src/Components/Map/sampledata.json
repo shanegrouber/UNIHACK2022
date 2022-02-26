@@ -1,0 +1,212 @@
+{
+    "0": {
+        "city": "Paris",
+        "country": "France",
+        "lat": 48.8566,
+        "long": 2.3522,
+        "count": 6.0
+    },
+    "1": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "lat": -37.8136,
+        "long": 144.9631,
+        "count": 2.0
+    },
+    "2": {
+        "city": "Kyiv",
+        "country": "Ukraine",
+        "lat": 50.45,
+        "long": 30.5236,
+        "count": 3.0
+    },
+    "3": {
+        "city": "Odesa",
+        "country": "Ukraine",
+        "lat": 46.4775,
+        "long": 30.7326,
+        "count": 1.0
+    },
+    "4": {
+        "city": "Pretoria",
+        "country": "South Africa",
+        "lat": -25.7464,
+        "long": 28.1881,
+        "count": 1.0
+    },
+    "5": {
+        "city": "Batman",
+        "country": "Turkey",
+        "lat": 37.8833,
+        "long": 41.1333,
+        "count": 2.0
+    },
+    "6": {
+        "city": "Durham",
+        "country": "United States",
+        "lat": 35.9794,
+        "long": -78.9031,
+        "count": 10.0
+    },
+    "7": {
+        "city": "Vladimir",
+        "country": "Russia",
+        "lat": 56.1286,
+        "long": 40.4058,
+        "count": 2.0
+    },
+    "8": {
+        "city": "Van",
+        "country": "Turkey",
+        "lat": 38.5019,
+        "long": 43.4167,
+        "count": 1.0
+    },
+    "9": {
+        "city": "University",
+        "country": "United States",
+        "lat": 28.0771,
+        "long": -82.4335,
+        "count": 2.0
+    },
+    "10": {
+        "city": "Melbourne",
+        "country": "United States",
+        "lat": 28.1085,
+        "long": -80.6627,
+        "count": 2.0
+    },
+    "11": {
+        "city": "Durham",
+        "country": "United Kingdom",
+        "lat": 54.7761,
+        "long": -1.5733,
+        "count": 10.0
+    },
+    "12": {
+        "city": "Of",
+        "country": "Turkey",
+        "lat": 40.945,
+        "long": 40.2644,
+        "count": 1.0
+    },
+    "13": {
+        "city": "Real",
+        "country": "Philippines",
+        "lat": 14.6667,
+        "long": 121.6,
+        "count": 1.0
+    },
+    "14": {
+        "city": "Paris",
+        "country": "United States",
+        "lat": 33.6688,
+        "long": -95.546,
+        "count": 6.0
+    },
+    "15": {
+        "city": "Ba",
+        "country": "Fiji",
+        "lat": -17.5333,
+        "long": 177.6833,
+        "count": 3.0
+    },
+    "16": {
+        "city": "Cham",
+        "country": "Germany",
+        "lat": 49.2183,
+        "long": 12.6658,
+        "count": 1.0
+    },
+    "17": {
+        "city": "Durham",
+        "country": "United States",
+        "lat": 43.1174,
+        "long": -70.9195,
+        "count": 10.0
+    },
+    "18": {
+        "city": "Penn",
+        "country": "United States",
+        "lat": 39.7994,
+        "long": -76.9642,
+        "count": 6.0
+    },
+    "19": {
+        "city": "Russi",
+        "country": "Italy",
+        "lat": 44.3764,
+        "long": 12.0334,
+        "count": 10.0
+    },
+    "20": {
+        "city": "Paris",
+        "country": "United States",
+        "lat": 38.2016,
+        "long": -84.2719,
+        "count": 6.0
+    },
+    "21": {
+        "city": "Paris",
+        "country": "United States",
+        "lat": 36.2934,
+        "long": -88.3065,
+        "count": 6.0
+    },
+    "22": {
+        "city": "Penn",
+        "country": "United States",
+        "lat": 40.1864,
+        "long": -76.3726,
+        "count": 6.0
+    },
+    "23": {
+        "city": "Paris",
+        "country": "United States",
+        "lat": 39.6149,
+        "long": -87.6904,
+        "count": 6.0
+    },
+    "24": {
+        "city": "Durham",
+        "country": "United States",
+        "lat": 41.4622,
+        "long": -72.6829,
+        "count": 10.0
+    },
+    "25": {
+        "city": "Eu",
+        "country": "France",
+        "lat": 50.0472,
+        "long": 1.4197,
+        "count": 5.0
+    },
+    "26": {
+        "city": "Mel",
+        "country": "Italy",
+        "lat": 46.0622,
+        "long": 12.0798,
+        "count": 1.0
+    },
+    "27": {
+        "city": "Durham",
+        "country": "United States",
+        "lat": 39.6232,
+        "long": -121.7875,
+        "count": 10.0
+    },
+    "28": {
+        "city": "Penn",
+        "country": "United States",
+        "lat": 39.8226,
+        "long": -75.8742,
+        "count": 6.0
+    },
+    "29": {
+        "city": "Paris",
+        "country": "United States",
+        "lat": 44.2445,
+        "long": -70.4883,
+        "count": 6.0
+    }
+}

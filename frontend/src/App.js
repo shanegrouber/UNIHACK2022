@@ -1,6 +1,6 @@
 import { Component } from "react";
 import Feed from "./Components/Feed";
-import NewsList from "./Components/NewsList";
+import NewsList from "./Components/Map/NewsList";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Map from "./Components/Map/Map";

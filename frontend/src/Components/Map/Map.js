@@ -1,38 +1,22 @@
 import React, { useEffect, useState } from "react";
 import ReactDOM from 'react-dom';
-import { Circle, CircleMarker, MapContainer, Polyline, Polygon, Popup, Rectangle, TileLayer,} from 'react-leaflet';
+import { Circle, CircleMarker, MapContainer, Polyline, Polygon, Popup, Rectangle, TileLayer, Tooltip,} from 'react-leaflet';
+import NewsList from "./NewsList";
 import './Map.css';
+import data from "./sampledata.json";
 
 const Map = () => {
   const position = [50.447731, 30.542721];
   const [map, setMap] = useState(null);
+  const dataArray =[];
 
-  // Test Data for placing circles
-  const circleData = [
-    {"latlng": [51, 31], "articles": 10},
-    {"latlng": [50, 30], "articles": 100},
-    {"latlng": [52, 32], "articles": 1},
-    {"latlng": [49, 29], "articles": 1000},
-  ];
-  const Circles = [];
-  //function DrawCircle() {
-    
-    //circleData.forEach(point => {
-    //  
-    //});
-    //return <Circle center={circleData[0].latlng} pathOptions={fillRedOptions} radius={circleData[0].articles * 10}></Circle>
-  //}
-  //ReactDOM.render(<DrawCircle />, document.getElementById('circles'))
-  function circleList() {
-    return (
-      <ol>
-        {circleData.map(point => (
-          <li key={point.latlng}>{point.latlng}</li>
-        ))}
-      </ol>
-    );
+  function drawAllCircles(dt) {
+    for (const element in dt) {
+      dataArray.push([dt[element].city,dt[element].country,dt[element].lat,dt[element].long,dt[element].count]);
+    }
   }
-  const [coords, setCoords] = useState({});
+
+  const [coords, setCoords] = useState({lng: 0, lat: 0});
   
   const fillRedOptions = { fillColor: 'red' , color: 'red'}
 
@@ -46,6 +30,10 @@ const Map = () => {
   
   const { lat, lng } = coords;
   
+  drawAllCircles(data)
+  console.log(dataArray[0])
+  console.log(dataArray[0][0])
+
   return (
     <div>
       <MapContainer zoom={13}
@@ -57,11 +45,25 @@ const Map = () => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         />
         
-        <>{circleData.map(({latlng,articles}) => (
+        {/* <>{circleData.map(({latlng,articles}) => (
           <Circle key={latlng} center={latlng} pathOptions={fillRedOptions} radius={articles * 10}>
-            <Popup>Popup in Circle</Popup>
+            <Popup><NewsList></NewsList></Popup>
+            <Tooltip>#articles</Tooltip>
           </Circle>
-        ))} </>
+        ))} </> */}
+
+        <> 
+        {dataArray[0].map(({item,index}) => {
+          console.log(item);
+          return <p key={index}>item</p>
+          //location.map(({lat,long,count}) => {
+          //  <Circle key={[lat,long]} center={[lat,long]} pathOptions={fillRedOptions} radius={count * 1000}>
+          //    <Popup><NewsList></NewsList></Popup>
+          //    <Tooltip>#articles</Tooltip>
+          //  </Circle>
+          //})
+        })} 
+        </>
 
         <div id="circles"></div>
 
