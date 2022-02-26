@@ -31,7 +31,6 @@ const Map = () => {
           url="https://api.mapbox.com/styles/v1/andrew-app/cl02c6cxf005a15oirym7wn2a/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYW5kcmV3LWFwcCIsImEiOiJjbDAxcjlzdWwwaTMyM3Fyc3JreDBqZGI4In0.QH_An0n-PwVGGbQGVSCWfQ"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         />
-        {console.log(circles[1].city)}
 
         {Object.keys(circles).map((key, i ) => (
           <Circle key={i} center={[circles[key].lat, circles[key].long]} pathOptions={fillRedOptions} radius={circles[key].count * 100000}>
