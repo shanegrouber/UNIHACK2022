@@ -46,7 +46,7 @@ const App = () => {
           <Map childToParent={childToParent} />
         </div>
         <Feed/>
-        <div>data: {JSON.stringify(locations["plus_code"]["compound_code"])}</div> 
+        <div>data: {JSON.stringify(locations ? locations["plus_code"].compound_code : locations["plus_code"])}</div> 
         
         
       </div>
