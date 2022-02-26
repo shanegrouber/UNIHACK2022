@@ -2,7 +2,7 @@ import requests
 import json
 import numpy as np
 import pandas as pd
-
+import simplejson
 in_file = open('top-headlines.json')
 
 data = json.load(in_file)
@@ -36,8 +36,6 @@ cities = df['city']
 
 df.set_index('city', inplace=True, drop=True)
 
-print(sources)
-
 
 for city in cities:
     for title in titles:
@@ -60,12 +58,23 @@ for city in cities:
 
 df=df[df!=0].dropna()
 
+df.reset_index(drop=False, inplace=True)
 
-out = df.to_json(orient='records')[1:-1].replace('},{', '} {')
+df = df.drop('Unnamed: 0', 1)
 
-print(out)
-# df.to_csv('filtered.csv')
+df.index.name = 'id'
+
+out = df.to_dict('index')
+
+obj = json.dumps(out, indent = 4)
+
+print(obj)
+with open("sampledata.json", "w") as outfile:
+    outfile.write(obj)
 
 
 in_file.close()
+outfile.close()
+
+
 
