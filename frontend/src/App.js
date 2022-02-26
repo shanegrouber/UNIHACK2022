@@ -1,4 +1,4 @@
-import { Component, useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import Feed from "./Components/Feed";
 import NewsList from "./Components/Map/NewsList";
 import Header from "./Components/Header";
@@ -6,26 +6,22 @@ import Footer from "./Components/Footer";
 import Map from "./Components/Map/Map";
 import axios from 'axios';
 
-
-
-
 const App = () => {
 
   const [coords, setData] = useState(null);
   const [locations, getLocations] = useState('');
-  const token = "AIzaSyCiHPm2a1g14WY6fvxZ0kPhIqJJfsoBYgE";
+  const token = "AIzaSyC_EbNkr39hDZSXjHqyT5y5Oq-5iZb2e70";
 
   useEffect(() => {
     getAllLocations();
   }, []);
 
-
   const childToParent = (childdata) => {
     setData(childdata);
   }
   
-
   const getAllLocations = () => {
+    console.log(coords)
     axios.get("https://maps.googleapis.com/maps/api/geocode/json?latlng="+coords+"&key="+token)
     .then((response) => {
         console.log(response)
@@ -36,16 +32,16 @@ const App = () => {
     });
   }
     
-
   return (
     <div>
       <Header/>
       <div class="grid grid-cols-4 gap-0 pt-8">
         <div class="col-span-3" onClick={() => {getAllLocations()}}>
-          <Map childToParent={childToParent} />
+          <Map childToParent={childToParent}/>
+          {coords}
         </div>
         <Feed/>
-        <div>data: {JSON.stringify(locations ? locations["plus_code"].compound_code : locations["plus_code"])}</div> 
+        <div>data: {JSON.stringify(locations ? locations["plus_code"] : locations["plus_code"])}</div> 
         
         
       </div>

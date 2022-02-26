@@ -8,7 +8,7 @@ import data from './sampledata.json';
 const Map = ({childToParent}) => {
   const position = [50.447731, 30.542721];
   const [map, setMap] = useState(null);
-  const [coords, setCoords] = useState({});
+  const [coords, setCoords] = useState({lng: 0, lat: 0});
   const fillRedOptions = { fillColor: 'red' , color: 'red'}
   const [circles, setCircles] = useState([]);
 
@@ -16,12 +16,11 @@ const Map = ({childToParent}) => {
     setCircles(data)
     if (!map) return;
     map.addEventListener("click", (e) => {
-      console.log(e.latlng)
       setCoords({ lat: e.latlng.lat, lng: e.latlng.lng });
-      
+      console.log("coords")
     });
   }, [map]);
-  //const textCoords = coords.lat.toFixed(6).toString() +','+coords.lng.toFixed(6).toString() ;
+  const textCoords =coords.lng.toString() + "," + coords.lat.toString();
         
   return (
     <div>
@@ -41,6 +40,7 @@ const Map = ({childToParent}) => {
         <div id="circles"></div> 
 
       </MapContainer>
+      {childToParent(textCoords)}
     </div>
   );
 };
