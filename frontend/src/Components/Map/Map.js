@@ -1,13 +1,11 @@
-import { circle } from "leaflet";
 import React, { useEffect, useState } from "react";
-import ReactDOM from 'react-dom';
 import { Circle, CircleMarker, MapContainer, Polyline, Polygon, Popup, Rectangle, TileLayer,} from 'react-leaflet';
 import './Map.css';
 import data from './sampledata.json';
 
 
 
-const Map = () => {
+const Map = ({childToParent}) => {
   const position = [50.447731, 30.542721];
   const [map, setMap] = useState(null);
   const [coords, setCoords] = useState({});
@@ -18,11 +16,12 @@ const Map = () => {
     setCircles(data)
     if (!map) return;
     map.addEventListener("click", (e) => {
+      console.log(e.latlng)
       setCoords({ lat: e.latlng.lat, lng: e.latlng.lng });
       
     });
   }, [map]);
-  const textCoords = coords.lat.toFixed(6).toString() +','+coords.lng.toFixed(6).toString() ;
+  //const textCoords = coords.lat.toFixed(6).toString() +','+coords.lng.toFixed(6).toString() ;
         
   return (
     <div>
@@ -35,26 +34,13 @@ const Map = () => {
         {Object.keys(circles).map((key, i ) => (
           <Circle key={i} center={[circles[key].lat, circles[key].long]} pathOptions={fillRedOptions} radius={circles[key].count * 100000}>
             <Popup>Popup in Circle</Popup>
+            {childToParent(coords)}
           </Circle>
         ))}
-
-
-        {/* <>
-        {circles.map(({latlng,articles}) => (
-          <Circle key={latlng} center={latlng} pathOptions={fillRedOptions} radius={articles * 10}>
-            <Popup>Popup in Circle</Popup>
-          </Circle>
-        ))} </> */}
 
         <div id="circles"></div> 
 
       </MapContainer>
-      {lat && (
-        <div>
-          <b>latitude</b>: {lat?.toFixed(4)} <br />
-          <b>longitude</b>: {lng?.toFixed(4)}
-        </div>
-      )}
     </div>
   );
 };
