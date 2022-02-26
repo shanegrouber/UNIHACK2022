@@ -6,11 +6,11 @@ import time
 def main():
     fetchnews()
     getcount()
-    time.sleep(10)
+    time.sleep(3600)
 
 
 if __name__ == "__main__":
-    check_time = time.strftime("%H:%M:%S", time.gmtime(10))
+    check_time = time.strftime("%H:%M:%S", time.gmtime(3600))
     start_time = time.time()
     main()
 
@@ -21,10 +21,10 @@ if __name__ == "__main__":
         t = time.strftime("%H:%M:%S", time.gmtime(elapsed_time))
 
         print("Uptime: ", t)
-        if t > check_time:
+        if t >= check_time:
             h, m, s = check_time.split(":")
             check_time_u = int(datetime.timedelta(hours=int(h), minutes=int(m), seconds=int(s)).total_seconds())
-            check_time = check_time_u + 10
+            check_time = check_time_u + 3600
             check_time = time.strftime("%H:%M:%S", time.gmtime(check_time))
             main()
             

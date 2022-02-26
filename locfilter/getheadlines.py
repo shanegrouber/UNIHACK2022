@@ -1,17 +1,11 @@
-from newsapi import NewsApiClient
+import requests
 import json
-
 
 def fetchnews():
 
-    newsapi = NewsApiClient(api_key='078b5bc2774b43938740f8858f4807ad')
+    r = requests.get("https://hottopicscanner.herokuapp.com/data")
 
-    top_sources = "the-wall-street-journal, bbc-news, reuters"
-
-    # /v2/top-headlines
-    top_headlines = newsapi.get_top_headlines(sources=top_sources)
-
-
-    top_headlines = json.dumps(top_headlines)
+    top_headlines = json.dumps(r.json())
     with open('top-headlines.json', 'w') as f: 
         f.write(top_headlines)
+
