@@ -13,7 +13,7 @@ const App = () => {
   const token = "AIzaSyC_EbNkr39hDZSXjHqyT5y5Oq-5iZb2e70";
 
   useEffect(() => {
-    getAllLocations();
+    //getAllLocations();
   }, []);
 
   const childToParent = (childdata) => {
@@ -26,7 +26,6 @@ const App = () => {
     .then((response) => {
         console.log(response)
         const allLocations = response.data;
-        getLocations(allLocations);
        }).catch(error => {
         console.log(error.response)
     });
@@ -36,7 +35,7 @@ const App = () => {
     <div class='h-screen'>
       <Header/>
       <div class="grid grid-cols-4 h-full gap-0 pt-8">
-        <div class="col-span-3" onClick={() => {getAllLocations()}}>
+        <div class="col-span-3">
           <Map childToParent={childToParent}/>
           {coords}
         </div>
