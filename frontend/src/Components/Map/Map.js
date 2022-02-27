@@ -8,7 +8,7 @@ import axios from 'axios';
 
 
 const Map = ({childToParent}) => {
-  const position = [50.447731, 30.542721];
+  const position = [0,0];
   const [map, setMap] = useState(null);
   const [coords, setCoords] = useState({lng: 0, lat: 0});
   const fillRedOptions = { fillColor: 'red' , color: 'red'}
@@ -46,7 +46,7 @@ const Map = ({childToParent}) => {
 
   return (
     <div>
-      <MapContainer zoom={13} center={position} whenCreated={setMap} on>
+      <MapContainer zoom={2} center={position} whenCreated={setMap} on>
         <TileLayer
           url="https://api.mapbox.com/styles/v1/andrew-app/cl02c6cxf005a15oirym7wn2a/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYW5kcmV3LWFwcCIsImEiOiJjbDAxcjlzdWwwaTMyM3Fyc3JreDBqZGI4In0.QH_An0n-PwVGGbQGVSCWfQ"
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
