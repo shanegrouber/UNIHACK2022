@@ -46,7 +46,7 @@ class PhoneSMS extends Component{
       document.getElementById('CountryField').style.borderColor= "";
     }
     if(text.recipient !== "" && text.city !== "" && text.countryName !== ""){
-    fetch(`http://127.0.0.1:4000/send-first-text?AreaCode=${text.AreaCode}&recipient=${text.recipient}&city=${text.city}&countryName=${text.countryName}`)
+    fetch(`https://hottopicscanner.herokuapp.com:4000/send-first-text?AreaCode=${text.AreaCode}&recipient=${text.recipient}&city=${text.city}&countryName=${text.countryName}`)
     .catch(err => console.log(err))
     
     const data = {areaCode: text.AreaCode,
@@ -69,9 +69,11 @@ class PhoneSMS extends Component{
     
     
   }
-
+  
 
   }
+ 
+
   render(){
     const { text } = this.state;
     return(
@@ -100,7 +102,7 @@ class PhoneSMS extends Component{
     "   placeholder='e.g 0456755098'   value={text.recipint} onChange={e => this.setState({ text: {...text, recipient: e.target.value}})}></input>
       </div>
         <button className='mt-2 ml-8 mr-8  bg-indigo-400 rounded-lg font-bold transition ease-in-out delay-60 bg-blue-500  hover:scale-110 hover:bg-indigo-500 duration-300 pl-4 pr-4 ml-2
-        ' onClick={this.sendText}>Enter</button>
+        ' onClick={this.deletePhone}>Enter</button>
         
         </div>
     </div>
