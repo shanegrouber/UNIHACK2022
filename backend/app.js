@@ -36,7 +36,7 @@ app.get('/data', newsArticles.getAllArticles);
 // TWILIO API 
 app.post('/customers/add', customers.addCustomer);
 app.get('/customers/get', customers.getCustomer);
-app.get('/customers/delete', customers.deleteCustomer);
+app.delete('/customers/delete', customers.deleteCustomer);
 
 function getNewArticles(oldDB, newDB) {
     let oldTitles = oldDB.map(x => x.title);
