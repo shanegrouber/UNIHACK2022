@@ -28,5 +28,13 @@ module.exports = {
             if (!customer) return res.status(404).json();
             res.json(customer);
         })
+    },
+    getAllCustomers: function(req, res) {
+        Customer.find({})
+            .exec(function(err, customers) {
+                if (err) return res.status(400).json(err);
+                if (!customers) return res.status(404).json();
+                res.json(customers);
+            });
     }
 }

@@ -15,7 +15,7 @@ const Feed = ({news}) => {
         <div className=" w-5/6 h-24 justify-self-center shadow-md bg-slate-100 shadow-slate-500/50 ">
         <h1 className="px-2">{i.city}</h1>
         <h2 className="px-2">{i.country}</h2>
-        <h2 className="px-2">Number of articles: {i.articles.length}</h2>
+        <h2 className="px-2">Number of mentions: {i.articles.length}</h2>
         </div>
       )}
         

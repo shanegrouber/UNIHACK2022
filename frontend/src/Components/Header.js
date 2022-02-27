@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css';
+import DropdownRender from './Dropdown';
 
 const Header = () => {
     return (
@@ -9,10 +10,7 @@ const Header = () => {
             <div class="flex justify-end">
                 <ul class="flex pt-2">
                     <li class="mr-6">
-                        <a class="text-blue-500 hover:text-blue-800" href="#">Button</a>
-                    </li>
-                    <li class="mr-6">
-                        <a class="text-blue-500 hover:text-blue-800" href="#">Button</a>
+                        <a><DropdownRender></DropdownRender></a>
                     </li>
                 </ul>
             </div>
