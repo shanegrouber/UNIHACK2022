@@ -5,7 +5,7 @@ def updatedb():
     
 
 
-    client = MongoClient("mongodb+srv://unihack22:uhbogo@cluster0.vlfea.mongodb.net/unihack?retryWrites=true&w=majority")
+    client = MongoClient("")
     db = client['unihack']
     collection_heatmap = db['heatmap']
 
