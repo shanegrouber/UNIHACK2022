@@ -9,6 +9,7 @@ const cors = require('cors');
 const newsapi = new NewsAPI(process.env.NEWSAPI_KEY);
 const newsArticles = require('./routers/newsArticle');
 const customers = require('./routers/customers');
+const heatmap = require('./routers/heatmap');
 const app = express();
 
 const ONE_HOUR = 1000 * 60 * 60;
@@ -29,9 +30,8 @@ mongoose.connect(`mongodb+srv://${process.env.MONGO_DOMAIN}@cluster0.vlfea.mongo
 });
 
 // BACKEND
-app.get('/countrydata', newsArticles.getAllCountryData)
+app.get('/heatmapdata', heatmap.getAllHeatmapData)
 app.get('/data', newsArticles.getAllArticles);
-app.get('/delete', newsArticles.deleteDuplicates);
 
 // TWILIO API 
 app.post('/customers/add', customers.addCustomer);
@@ -77,7 +77,7 @@ function fetchArticles() {
             newsArticles.addArticle(newArticle);
             database.push(article)
         }
-        newsArticles.deleteOldArticles();
+        // newsArticles.deleteOldArticles();
         newsArticles.deleteDuplicates();
 
     }).catch(err => {
