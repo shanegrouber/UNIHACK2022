@@ -4,8 +4,6 @@ import axios from 'axios';
 
 class PhoneSMS extends Component{
 
-
-  
   state = {
     text:{
       AreaCode: '',
@@ -77,33 +75,30 @@ class PhoneSMS extends Component{
   render(){
     const { text } = this.state;
     return(
-    <div className=' shadow-lg w-96 h-96 '>
-      <div className='absolute  pt-28 pl-16 '>
-        <div className='shadow-md'>
-      <h1 className='font-bold'>Get Alerted</h1>
-      <h1 className='pl-24 font-bold tracking-wider underline'> Near You!</h1>
+    <div className='px-5 z-[10000] shadow-lg '>
+      <div className='absolute justify-center '>
+        <div className=''>
       </div>
       </div>
-      <div className='mt-64 '>
+      <div className=''>
         <div className='grid grid-col-2'>
       <div className='justify-self-center flex flex-row'>
-          <input id='CityField' className=" w-28 ml-0.5 bg-slate-300 border  rounded-lg hover:shadow-xl  focus:outline-none shadow-sm 
+          <input id='CityField' className=" z-[1000] w-28 ml-0.5 bg-slate-200 border hover:shadow-xl  focus:outline-none shadow-sm 
     "   placeholder='e.g Adelaide'   value={text.city} onChange={e => this.setState({ text: {...text, city: e.target.value}})}></input>
-        <input id='CountryField' className=" ml-3 bg-slate-300  border rounded-lg hover:shadow-xl    focus:outline-none shadow-sm 
+        <input id='CountryField' className="z-[1000] ml-3 bg-slate-200  border hover:shadow-xl    focus:outline-none shadow-sm 
     "   placeholder='e.g South Australia'   value={text.countryName} onChange={e => this.setState({ text: {...text, countryName: e.target.value}})}></input>
       </div>
       </div>
     <div className='grid grid-col-1'>
       <div className='justify-self-center flex flex-row'>
         <h1 className='text-gray-500 '>+</h1>
-        <input id='AreaCodeField' className=" w-16 mt-2 ml-0.5 mr-0.5 bg-slate-300  border rounded-lg hover:shadow-xl     focus:outline-none shadow-sm 
-    "   placeholder='e.g 61'   value={text.AreaCode} onChange={e => this.setState({ text: {...text, AreaCode: e.target.value}})}></input>
-        <input id='NumberField' className="mt-2 ml-0.5 mr-0.5 bg-slate-300  border rounded-lg hover:shadow-xl     focus:outline-none shadow-sm 
+        <input id='AreaCodeField' className="z-[1000] w-16 mt-2 ml-0.5 mr-0.5 bg-slate-200  border hover:shadow-xl     focus:outline-none shadow-sm 
+    "   placeholder='e.g +61'   value={text.AreaCode} onChange={e => this.setState({ text: {...text, AreaCode: e.target.value}})}></input>
+        <input id='NumberField' className="z-[1000] mt-2 ml-0.5 mr-0.5 bg-slate-200  border hover:shadow-xl     focus:outline-none shadow-sm 
     "   placeholder='e.g 0456755098'   value={text.recipint} onChange={e => this.setState({ text: {...text, recipient: e.target.value}})}></input>
       </div>
-        <button className='mt-2 ml-8 mr-8  bg-indigo-400 rounded-lg font-bold transition ease-in-out delay-60 bg-blue-500  hover:scale-110 hover:bg-indigo-500 duration-300 pl-4 pr-4 ml-2
-        ' onClick={this.deletePhone}>Enter</button>
-        
+        <button className='z-[1000] justify-center mt-2 ml-8 mr-8  font-bold hover:scale-105
+        ' onClick={this.deletePhone}>Send Me Location News Alerts! (WIP)</button>
         </div>
     </div>
     </div>

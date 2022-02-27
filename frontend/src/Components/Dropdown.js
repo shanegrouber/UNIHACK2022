@@ -1,5 +1,7 @@
 import React from "react";
 import { createPopper } from "@popperjs/core";
+import PhoneSMS from "./PhoneSMS";
+
 
 const Dropdown = ({ color }) => {
   // dropdown props
@@ -46,12 +48,17 @@ const Dropdown = ({ color }) => {
               ref={popoverDropdownRef}
               className={
                 (dropdownPopoverShow ? "block " : "hidden ") +
-                (color === "white" ? "bg-white " : bgColor + " ") +
+                (color === "white" ? "bg-slate-100 " : bgColor + " ") +
                 "z-50 float-left py-2 list-none rounded shadow-lg mt-1 shadow-lg"
               }
               style={{ minWidth: "12rem" }}
             >
-            <p className="p-3 text-black"></p>
+            <h1 className='p-3'>Our Mission</h1>
+            <p className="p-3 text-black">We use NewsAPI for sourcing all of our articles, and the World Cities Database.
+            
+            Culminating a wide range of news sources and helping you identify where in the world is active in the news cycle, helping you find what's relevant to you.</p>
+            <p className="p-3 text-black"><PhoneSMS/></p>
+            
             </div>
           </div>
         </div>
