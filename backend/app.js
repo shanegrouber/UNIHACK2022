@@ -28,9 +28,15 @@ mongoose.connect(`mongodb+srv://${process.env.MONGO_DOMAIN}@cluster0.vlfea.mongo
     console.log('Connect Successfully');
 });
 
-app.get('/data', newsArticles.getAll);
+// BACKEND
+app.get('/countrydata', newsArticles.getAllCountryData)
+app.get('/data', newsArticles.getAllArticles);
 app.get('/delete', newsArticles.deleteDuplicates);
-// app.post('/add', newsArticles.);
+
+// TWILIO API 
+app.post('/customers/add', customers.addCustomer);
+app.get('/customers/get', customers.getCustomer);
+app.get('/customers/delete', customers.deleteCustomer);
 
 function getNewArticles(oldDB, newDB) {
     let oldTitles = oldDB.map(x => x.title);
@@ -47,11 +53,9 @@ function getNewArticles(oldDB, newDB) {
 
 function fetchArticles() {
     d = new Date();
-    newsapi.v2.everything({
+    newsapi.v2.topHeadlines({
         language: 'en',
-        from: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-13}`,
-        // to: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-10}`,
-        // sources: 'abc-news,bbc-news',
+        from: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-1}`,
         pageSize: 100
     }).then(response => {
 
@@ -73,14 +77,15 @@ function fetchArticles() {
             newsArticles.addArticle(newArticle);
             database.push(article)
         }
+        newsArticles.deleteOldArticles();
+        newsArticles.deleteDuplicates();
 
     }).catch(err => {
         console.log(err);
     });
 }
 database = [];
-// fetchArticles();
-// setInterval(function() {
-//     fetchArticles();
-//     newsArticles.deleteOldArticles();
-// }, ONE_HOUR);
+fetchArticles();
+setInterval(function() {
+    fetchArticles();
+}, ONE_HOUR);

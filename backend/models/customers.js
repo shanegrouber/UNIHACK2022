@@ -7,8 +7,9 @@ const customerSchema = new mongoose.Schema({
         required: true,
         validate: {
             validator: function(code) {
-                return code.is
-            }
+                return !isNan(code) && code.length <= 3;
+            },
+            message: "Area code must be a number and less than 3 digits."
         }
     },
     city: {
@@ -21,7 +22,13 @@ const customerSchema = new mongoose.Schema({
     },
     phoneNumber: {
         type: String,
-        required: true
+        required: true,
+        validate: {
+            validator: function(number) {
+                return !isNan(number) && number.length <= 10;
+            },
+            message: "Phone number must be a number and less than 10 digits."
+        }
     }
 
 })
