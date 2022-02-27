@@ -40,13 +40,5 @@ module.exports = {
             console.log(`Deleted ${articles.length} old articles.`);
             if (err) return err;
         })
-    },
-    getAllCountryData: function(req, res) {
-        NewsArticle.find({})
-            .exec(function(err, countryData) {
-                if (err) return res.status(400).json(err);
-                if (!countryData) return res.status(404).json();
-                res.json(countryData);
-            })
     }
 }
