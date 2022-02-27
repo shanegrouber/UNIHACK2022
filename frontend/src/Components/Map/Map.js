@@ -3,6 +3,7 @@ import { Circle, CircleMarker, MapContainer, Polyline, Polygon, Popup, Rectangle
 import './Map.css';
 import data from './sampledata.json';
 import NewsList from "./NewsList";
+import axios from 'axios';
 
 
 
@@ -13,7 +14,24 @@ const Map = ({childToParent}) => {
   const fillRedOptions = { fillColor: 'red' , color: 'red'}
   const [circles, setCircles] = useState([]);
   const [location, setLocation] = useState("");
+  const [newsData, setNewsData] = useState(null);
   
+  const getData = () => {
+    axios.get('https://hottopicscanner.herokuapp.com/heatmapdata')
+    .then((response) => {
+        setNewsData(response)
+       }).catch(error => {
+        console.log(error.response)
+    });
+  }
+
+  if (newsData === null) {
+    getData()
+  } else {
+    console.log("already retreived data")
+  }
+
+
   useEffect(() => {
     setCircles(data)
     if (!map) return;
@@ -34,21 +52,21 @@ const Map = ({childToParent}) => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors Imagery © <a href="https://www.mapbox.com/">Mapbox</a>'
         />
 
-        {/* IF COUNT IS FIVE OR LESS, DO NOT DRAW CIRCLE - to prevent outliers - in backend probably */}
-        {Object.keys(circles).map((key, i ) => (
+        
+        {newsData ? Object.keys(newsData.data[0].data).map((key, i ) => (
           <Circle 
             key={i} 
-            center={[circles[key].lat, circles[key].long]} 
+            center={[newsData.data[0].data[key].lat, newsData.data[0].data[key].long]} 
             pathOptions={fillRedOptions} 
-            radius={circles[key].count * 10000} 
+            radius={newsData.data[0].data[key].count * 10000} 
             eventHandlers={{click: (e) => {
-              console.log(circles[key].lat)
-              getCircleLocation(circles[key].city)
+              console.log(newsData.data[0].data[key].lat)
+              getCircleLocation(newsData.data[0].data[key].city)
             },
           }}>
-            <Popup><NewsList></NewsList></Popup>
+            <Popup><NewsList data={newsData.data[0].data[key]}>{console.log(newsData.data[0].data[key])}</NewsList></Popup>
           </Circle>
-        ))}
+        )) : null}
       {childToParent(location)}
       </MapContainer>
     </div>
