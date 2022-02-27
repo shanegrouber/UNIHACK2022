@@ -5,15 +5,19 @@ const express = require('express');
 const mongoose = require('mongoose');
 const NewsAPI = require('newsapi');
 const path = require('path');
+const cors = require('cors');
 const newsapi = new NewsAPI(process.env.NEWSAPI_KEY);
 const newsArticles = require('./routers/newsArticle');
+const customers = require('./routers/customers');
 const app = express();
 
+const ONE_HOUR = 1000 * 60 * 60;
 
 app.listen(process.env.PORT || 3000, function() {
     console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '../frontend/build')));
@@ -25,7 +29,8 @@ mongoose.connect(`mongodb+srv://${process.env.MONGO_DOMAIN}@cluster0.vlfea.mongo
 });
 
 app.get('/data', newsArticles.getAll);
-
+app.get('/delete', newsArticles.deleteDuplicates);
+// app.post('/add', newsArticles.);
 
 function getNewArticles(oldDB, newDB) {
     let oldTitles = oldDB.map(x => x.title);
@@ -39,12 +44,15 @@ function getNewArticles(oldDB, newDB) {
     return difference;
 }
 
+
 function fetchArticles() {
     d = new Date();
-    newsapi.v2.topHeadlines({
+    newsapi.v2.everything({
         language: 'en',
-        from: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-1}`,
-        sources: 'abc-news,bbc-news'
+        from: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-13}`,
+        // to: `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()-10}`,
+        // sources: 'abc-news,bbc-news',
+        pageSize: 100
     }).then(response => {
 
         let fetchedArticles = response.articles;
@@ -71,6 +79,8 @@ function fetchArticles() {
     });
 }
 database = [];
+// fetchArticles();
 // setInterval(function() {
 //     fetchArticles();
-// }, 1000 * 60 * 60);
+//     newsArticles.deleteOldArticles();
+// }, ONE_HOUR);
