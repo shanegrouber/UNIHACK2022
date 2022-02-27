@@ -38,19 +38,20 @@ const Dropdown = ({ color }) => {
                   : openDropdownPopover();
               }}
             >
-              {color === "white" ? "About" : color + " Dropdown"}
+              {color === "white" ? "Info" : color + " Dropdown"}
               
             </button>
+            
             <div
               ref={popoverDropdownRef}
               className={
                 (dropdownPopoverShow ? "block " : "hidden ") +
                 (color === "white" ? "bg-white " : bgColor + " ") +
-                "text-base z-50 float-left py-2 list-none text-left rounded shadow-lg mt-1"
+                "z-50 float-left py-2 list-none rounded shadow-lg mt-1 shadow-lg"
               }
               style={{ minWidth: "12rem" }}
             >
-            this is a section about us
+            <p className="p-3 text-black"></p>
             </div>
           </div>
         </div>

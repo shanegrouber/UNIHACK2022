@@ -10,7 +10,7 @@ const Header = () => {
             <div class="flex justify-end">
                 <ul class="flex pt-2">
                     <li class="mr-6">
-                        <a class="text-blue-500 hover:text-blue-800" href="#"><DropdownRender>About</DropdownRender></a>
+                        <a><DropdownRender></DropdownRender></a>
                     </li>
                 </ul>
             </div>

@@ -49,7 +49,7 @@ const App = () => {
         <div class= "grid grid-cols-1">
         {news? <Feed news={news}/> : null}
         
-        {/* <PhoneSMS/> */}
+         <PhoneSMS/>
         
         </div>
 
