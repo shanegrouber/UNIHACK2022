@@ -64,7 +64,7 @@ const Map = ({childToParent}) => {
               getCircleLocation(newsData.data[0].data[key].city)
             },
           }}>
-            <Popup><NewsList data={newsData.data[0].data[key]}></NewsList></Popup>
+            <Popup><NewsList className="overflow-y-auto w-full h-full" data={newsData.data[0].data[key]}></NewsList></Popup>
             
             
           </Circle>
