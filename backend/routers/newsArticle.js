@@ -3,7 +3,7 @@ const moment = require("moment");
 var NewsArticle = require('../models/newsArticle');
 
 module.exports = {
-    getAll: function(req, res) {
+    getAllArticles: function(req, res) {
         NewsArticle.find({})
             .exec(function(err, newsArticles) {
                 if (err) return res.status(400).json(err);
@@ -17,30 +17,36 @@ module.exports = {
             if (err) console.log(err);
         });
     },
-    deleteDuplicates: function(req, res) {
+    deleteDuplicates: function() {
         let tmp = [];
         NewsArticle.find({})
             .exec(function(err, newsArticles) {
-                if (err) return res.status(400).json(err);
-                if (!newsArticles) return res.status(404).json();
+                if (err) return err;
                 newsArticles.forEach(function(newsArticle) {
                     if (tmp.indexOf(newsArticle.url) === -1) {
                         tmp.push(newsArticle.url);
                     } else {
                         NewsArticle.findOneAndDelete({ _id: newsArticle._id }, function(err) {
-                            if (err) console.log(err);
+                            if (err) return err;
                         });
                     }
                 })
-                res.json()
             })
     },
     deleteOldArticles: function() {
         console.log("Deleting old articles");
         let oneWeekAgo = moment().subtract(7, 'days');
         NewsArticle.deleteMany({ publishedAt: { $lt: oneWeekAgo } }, function(err, articles) {
-            console.log(articles.length);
+            console.log(`Deleted ${articles.length} old articles.`);
             if (err) return err;
         })
+    },
+    getAllCountryData: function(req, res) {
+        NewsArticle.find({})
+            .exec(function(err, countryData) {
+                if (err) return res.status(400).json(err);
+                if (!countryData) return res.status(404).json();
+                res.json(countryData);
+            })
     }
 }
