@@ -1,9 +1,11 @@
 
 import React, { Component } from 'react'
-
+import axios from 'axios';
 
 class PhoneSMS extends Component{
 
+
+  
   state = {
     text:{
       AreaCode: '',
@@ -15,43 +17,61 @@ class PhoneSMS extends Component{
   sendText = _ => {
     const { text } = this.state;
     
-    if(text.recipient == ""){
+    if(text.recipient === ""){
       document.getElementById('NumberField').style.borderColor= "red";
       
       
     }else{
       document.getElementById('NumberField').style.borderColor= "";
     }
-    if(text.recipient == ""){
+    if(text.recipient === ""){
       document.getElementById('AreaCodeField').style.borderColor= "red";
       
       
     }else{
       document.getElementById('AreaCodeField').style.borderColor= "";
     }
-     if (text.city == ""){
+     if (text.city === ""){
       document.getElementById('CityField').style.borderColor= "red";
      
       
     }else{
       document.getElementById('CityField').style.borderColor= "";
     }
-    if (text.countryName== ""){
+    if (text.countryName=== ""){
       document.getElementById('CountryField').style.borderColor= "red";
   
       
     }else{
       document.getElementById('CountryField').style.borderColor= "";
     }
-    if(text.recipient != "" && text.city != "" && text.countryName != ""){
-    fetch(`http://127.0.0.1:4000/send-first-text?recipient=${text.recipient}&city=${text.city}&countryName=${text.countryName}`)
+    if(text.recipient !== "" && text.city !== "" && text.countryName !== ""){
+    fetch(`http://127.0.0.1:4000/send-first-text?AreaCode=${text.AreaCode}&recipient=${text.recipient}&city=${text.city}&countryName=${text.countryName}`)
     .catch(err => console.log(err))
-    }
-   
+    
+    const data = {areaCode: text.AreaCode,
+      city: text.city,
+      country:  text.countryName,
+      phoneNumber: text.recipient};
+      
+      axios({
+        method: 'post',
+        url: 'https://hottopicscanner.herokuapp.com/customers/add',
+        data: data
+      })
+      .then((response) => {
+        console.log(response.status);
+      }, (error) => {
+        console.log(error);
+      });
+
+
+    
+    
   }
 
 
-
+  }
   render(){
     const { text } = this.state;
     return(
