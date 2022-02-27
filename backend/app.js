@@ -37,6 +37,7 @@ app.get('/data', newsArticles.getAllArticles);
 app.post('/customers/add', customers.addCustomer);
 app.get('/customers/get', customers.getCustomer);
 app.delete('/customers/delete', customers.deleteCustomer);
+app.get('/customers/all', customers.getAllCustomers);
 
 function getNewArticles(oldDB, newDB) {
     let oldTitles = oldDB.map(x => x.title);
