@@ -10,10 +10,12 @@ const NewsList = ({data, links}) => {
                 <div className="font-bold text-xl mb-2">
                     <h2>news in {data.city}</h2>
                 </div>
+
+                <div class="overflow-y-auto">
                 {data.articles.map((article, i) => <NewsItem key={i} text={article} link={data.urls[i]}>{console.log(article), console.log()}</NewsItem>)}
-                
+                </div>
+            </div>
         </div>
-      </div>
       )
     }
 
