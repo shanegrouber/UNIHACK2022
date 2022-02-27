@@ -64,10 +64,13 @@ const Map = ({childToParent}) => {
               getCircleLocation(newsData.data[0].data[key].city)
             },
           }}>
-            <Popup><NewsList data={newsData.data[0].data[key]}>{console.log(newsData.data[0].data[key])}</NewsList></Popup>
+            <Popup><NewsList data={newsData.data[0].data[key]}></NewsList></Popup>
+            
+            
           </Circle>
         )) : null}
-      {childToParent(location)}
+      {childToParent(location, newsData)}
+      
       </MapContainer>
     </div>
   );

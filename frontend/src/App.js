@@ -7,32 +7,47 @@ import axios from 'axios';
 import PhoneSMS from "./Components/PhoneSMS";
 import NewsItem from "./Components/NewsItem";
 
+const getData = () => {
+  axios.get('https://hottopicscanner.herokuapp.com/heatmapdata')
+  .then((response) => {
+     }).catch(error => {
+      console.log(error.response)
+  });
+}
+
+
 const App = () => {
 
   const [coords, setData] = useState(null);
+  const [news, setNews] = useState(getData());
 
   const token = "AIzaSyC_EbNkr39hDZSXjHqyT5y5Oq-5iZb2e70";
 
   useEffect(() => {
-    //getAllLocations();
   }, []);
 
-  const childToParent = (childdata) => {
+  const childToParent = (childdata, data) => {
     setData(childdata);
+    setNews(data);
   }
 
+
+  // if (news === null) {
+  //   getData()
+  // } else {
+  //   console.log("already retreived data")
+  // }
 
   return (
     <div class='h-screen'>
       <Header/>
       <div class="grid grid-cols-4 h-full gap-0 pt-8">
         <div class="col-span-3 h-full">
-          <Map childToParent={childToParent} />
-          {coords}
+          <Map childToParent={childToParent} news={news} />
         </div>
         
         <div class= "grid grid-cols-1">
-        <Feed/>
+        {news? <Feed news={news}/> : null}
         
         {/* <PhoneSMS/> */}
         
