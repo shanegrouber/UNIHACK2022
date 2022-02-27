@@ -1,9 +1,11 @@
 
 import React, { Component } from 'react'
-
+import axios from 'axios';
 
 class PhoneSMS extends Component{
 
+
+  
   state = {
     text:{
       AreaCode: '',
@@ -15,42 +17,62 @@ class PhoneSMS extends Component{
   sendText = _ => {
     const { text } = this.state;
     
-    if(text.recipient == ""){
+    if(text.recipient === ""){
       document.getElementById('NumberField').style.borderColor= "red";
       
       
     }else{
       document.getElementById('NumberField').style.borderColor= "";
     }
-    if(text.recipient == ""){
+    if(text.recipient === ""){
       document.getElementById('AreaCodeField').style.borderColor= "red";
       
       
     }else{
       document.getElementById('AreaCodeField').style.borderColor= "";
     }
-     if (text.city == ""){
+     if (text.city === ""){
       document.getElementById('CityField').style.borderColor= "red";
      
       
     }else{
       document.getElementById('CityField').style.borderColor= "";
     }
-    if (text.countryName== ""){
+    if (text.countryName=== ""){
       document.getElementById('CountryField').style.borderColor= "red";
   
       
     }else{
       document.getElementById('CountryField').style.borderColor= "";
     }
-    if(text.recipient != "" && text.city != "" && text.countryName != ""){
-    fetch(`http://127.0.0.1:4000/send-first-text?recipient=${text.recipient}&city=${text.city}&countryName=${text.countryName}`)
+    if(text.recipient !== "" && text.city !== "" && text.countryName !== ""){
+    fetch(`https://hottopicscanner.herokuapp.com:4000/send-first-text?AreaCode=${text.AreaCode}&recipient=${text.recipient}&city=${text.city}&countryName=${text.countryName}`)
     .catch(err => console.log(err))
-    }
-   
+    
+    const data = {areaCode: text.AreaCode,
+      city: text.city,
+      country:  text.countryName,
+      phoneNumber: text.recipient};
+      
+      axios({
+        method: 'post',
+        url: 'https://hottopicscanner.herokuapp.com/customers/add',
+        data: data
+      })
+      .then((response) => {
+        console.log(response.status);
+      }, (error) => {
+        console.log(error);
+      });
+
+
+    
+    
   }
+  
 
-
+  }
+ 
 
   render(){
     const { text } = this.state;
@@ -80,7 +102,7 @@ class PhoneSMS extends Component{
     "   placeholder='e.g 0456755098'   value={text.recipint} onChange={e => this.setState({ text: {...text, recipient: e.target.value}})}></input>
       </div>
         <button className='mt-2 ml-8 mr-8  bg-indigo-400 rounded-lg font-bold transition ease-in-out delay-60 bg-blue-500  hover:scale-110 hover:bg-indigo-500 duration-300 pl-4 pr-4 ml-2
-        ' onClick={this.sendText}>Enter</button>
+        ' onClick={this.deletePhone}>Enter</button>
         
         </div>
     </div>
