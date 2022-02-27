@@ -11,7 +11,7 @@ const NewsList = ({data, links}) => {
                     <h2>news in {data.city}</h2>
                 </div>
 
-                <div className="overflow-y-auto w-full">
+                <div className="overflow-y-auto w-full  ">
                 {data.articles.map((article, i) => <NewsItem key={i} text={article} link={data.urls[i]}>{console.log(article), console.log()}</NewsItem>)}
                 </div>
             </div>
