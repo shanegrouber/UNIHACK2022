@@ -4,7 +4,7 @@ const Feed = ({news}) => {
   return (
     <div className="shadow-2xl w-5/6 h-3/4 overflow-y-hidden"> 
       <div className="flex flex-col-2 place-content-center">
-        <h1 className=" antialiased font-bold tracking-wide">Active Countries</h1> 
+        <h1 className=" antialiased font-bold tracking-wide">Active Places</h1> 
         {/* <img class="h-10 pl-2 pt-2" src='Icons/NewsPaper.png'></img> */}
         {/* <span class="animate-pulse relative inline-flex rounded-full h-3 w-3 bg-sky-500"></span> */}
       </div>
